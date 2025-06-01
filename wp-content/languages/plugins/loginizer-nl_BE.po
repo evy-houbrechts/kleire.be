@@ -1,0 +1,1795 @@
+# Translation of Plugins - Loginizer - Stable (latest release) in Dutch (Belgium)
+# This file is distributed under the same license as the Plugins - Loginizer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-24 12:01:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl_BE\n"
+"Project-Id-Version: Plugins - Loginizer - Stable (latest release)\n"
+
+#: main/settings/sso.php:214
+msgid "Time to Live"
+msgstr "Time to Live"
+
+#: main/settings/sso.php:215
+msgid "Select the duration for which the SSO stays alive"
+msgstr "Selecteer de duur waarvoor de SSO actief blijft"
+
+#: main/settings/sso.php:233
+msgid "Number of times you want your user to be able to login through same link by default it's 1 time and maximum is 15 times"
+msgstr "Aantal keren dat je wil dat je gebruiker standaard kan inloggen via dezelfde link, standaard is het 1 keer en maximaal 15 keer"
+
+#: main/settings/sso.php:258
+msgid "Attempts Remaining"
+msgstr "Resterende pogingen"
+
+#: main/admin.php:504
+msgid "Single Sign On"
+msgstr "Eenmalige login"
+
+#: main/settings/sso.php:27
+msgid "Security Check Failed!"
+msgstr "Veiligheidscontrole mislukt!"
+
+#: main/settings/sso.php:84
+msgid "SSO IDs were malformed"
+msgstr "SSO ID's zijn misvormd"
+
+#: main/settings/sso.php:20
+msgid "SSO is a Pro feature so it can not be used with the free version."
+msgstr "SSO is een Pro functie en kan dus niet worden gebruikt met de gratis versie."
+
+#: main/settings/sso.php:38
+msgid "Please select a user for whom you want to generate the link"
+msgstr "Selecteer een gebruiker voor wie je de link wil genereren"
+
+#: main/settings/sso.php:62
+msgid "The given user was not found !"
+msgstr "De opgegeven gebruiker bestaat niet!"
+
+#: main/settings/sso.php:76
+msgid "Please select SSO Links to delete!"
+msgstr "Selecteer SSO links om te verwijderen!"
+
+#: main/settings/sso.php:169
+msgid "Generate SSO"
+msgstr "Genereer SSO"
+
+#: main/settings/sso.php:190
+msgid "You can generate SSO link or send it to an email, to give them access to your WordPress admin"
+msgstr "Je kan een SSO link genereren of naar een e-mail sturen om ze toegang te geven tot je WordPress beheer"
+
+#: main/settings/sso.php:195
+msgid "Email"
+msgstr "E-mail"
+
+#: main/settings/sso.php:196
+msgid "Email of the person you want to send the SSO to"
+msgstr "E-mail van de persoon naar wie je de SSO wil sturen"
+
+#: main/settings/sso.php:200
+msgid "You can leave it empty if you just want to create a SSO link"
+msgstr "Je kan het leeg laten als je alleen een SSO link wil maken"
+
+#: main/settings/sso.php:205
+msgid "User"
+msgstr "Gebruiker"
+
+#: main/settings/sso.php:206
+msgid "User for who's account you want to generate the SSO"
+msgstr "Gebruiker voor wiens account je de SSO wil genereren"
+
+#: main/settings/sso.php:255
+msgid "User ID"
+msgstr "Gebruiker ID"
+
+#: main/settings/sso.php:256
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: main/settings/sso.php:257
+msgid "SSO Link"
+msgstr "SSO link"
+
+#: main/settings/sso.php:259
+msgid "Expiring in"
+msgstr "Verloopt in"
+
+#: main/settings/sso.php:265
+msgid "No SSO link has been created yet."
+msgstr "Er is nog geen SSO link aangemaakt."
+
+#: main/settings/sso.php:309
+msgid "Delete Selected Links"
+msgstr "Verwijder geselecteerde links"
+
+#: main/settings/security.php:931
+msgid "Excluded roles won't face session limit checks"
+msgstr "Uitgesloten rollen worden niet onderworpen aan sessie limiet controles"
+
+#: main/settings/security.php:930
+msgid "Exclude Roles"
+msgstr "Rollen uitsluiten"
+
+#: main/settings/security.php:921
+msgid "Set Maximum number of sessions can be created"
+msgstr "Instellen maximaal aantal sessies dat kan worden gemaakt"
+
+#: main/settings/security.php:920
+msgid "Max Session Count"
+msgstr "Maximaal aantal sessies"
+
+#: main/settings/security.php:915
+msgid "Revokes all the sessions on successful login"
+msgstr "Trekt alle sessies in bij succesvol login"
+
+#: main/settings/security.php:915
+msgid "Destroy"
+msgstr "Vernietigen"
+
+#: main/settings/security.php:913
+msgid "Blocks all the login attempts if limit is reached"
+msgstr "Blokkeert alle login pogingen als de limiet is bereikt"
+
+#: main/settings/security.php:913
+msgid "Block"
+msgstr "Blok"
+
+#: main/settings/security.php:909
+msgid "Limit Type"
+msgstr "Limiet type"
+
+#: main/settings/security.php:901
+msgid "Enabling it will start limiting number of devices the user can login on concurrently"
+msgstr "Als je dit inschakelt, wordt het aantal apparaten beperkt waarop de gebruiker tegelijkertijd kan inloggen"
+
+#: main/settings/security.php:900
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: main/settings/security.php:895
+msgid "This feature will help limit the number of devices your user can login to concurrently"
+msgstr "Deze functie helpt het aantal apparaten te beperken waarop je gebruiker tegelijkertijd kan inloggen"
+
+#: main/settings/security.php:882
+msgid "Limit Concurrent Sessions"
+msgstr "Beperk gelijktijdige sessies"
+
+#: main/settings/dashboard.php:296
+msgid "Failed"
+msgstr "Mislukt"
+
+#: main/settings/dashboard.php:222
+msgid "Data For Last 24 hours"
+msgstr "Gegevens voor de afgelopen 24 uur"
+
+#: main/settings/dashboard.php:219
+msgid "Total Attempts:"
+msgstr "Totale pogingen:"
+
+#: main/settings/dashboard.php:212 main/settings/sso.php:232
+msgid "Login Attempts"
+msgstr "Login pogingen"
+
+#: main/settings/dashboard.php:203
+msgid "Your website is being protected by Loginizer Security."
+msgstr "Je site wordt beschermd door Loginizer Security."
+
+#: main/settings/dashboard.php:198
+msgid "Your website is under heavy brute-force attacks.<br/> <a href=\"https://loginizer.com/pricing?utm_source=stats_block\" target=\"_blank\">Upgrade to a premium version</a> for added protection if this trend persists. Act fast to secure your site."
+msgstr "Je site wordt zwaar aangevallen met brute force.<br/> <a href=\"https://loginizer.com/pricing?utm_source=stats_block\" target=\"_blank\">Upgrade naar een premiumversie</a> voor toegevoegde bescherming als deze trend aanhoudt. Handel snel om je site te beveiligen."
+
+#: main/settings/dashboard.php:195
+msgid "Brute-force attacks on your websites are on rise"
+msgstr "Brute force aanvallen op je sites nemen toe"
+
+#: main/settings/dashboard.php:192
+msgid "Risk from Brute-force attacks is low, attacks are under control"
+msgstr "Het risico van brute force aanvallen is laag, aanvallen zijn onder controle"
+
+#: main/settings/dashboard.php:188
+msgid "Your Website is safe"
+msgstr "Je site is veilig"
+
+#: main/admin.php:239
+msgid "Done! Backuply is now installed and activated."
+msgstr "Klaar! Backuply is nu geïnstalleerd en geactiveerd."
+
+#: main/admin.php:169
+msgid "Install Backuply"
+msgstr "Installeer Backuply"
+
+#: main/admin.php:167
+msgid "Stress Free Migrations"
+msgstr "Stress vrije migraties"
+
+#: main/admin.php:166
+msgid "Easy One-Click restores"
+msgstr "Eenvoudig terugzetten in één klik"
+
+#: main/admin.php:164
+msgid "Backup to remote locations like FTP, FTPS, SFTP, WebDAV, Google Drive, OneDrive, Dropbox, Amazon S3"
+msgstr "Back-up naar externe locaties zoals FTP, FTPS, SFTP, WebDAV, Google Drive, OneDrive, Dropbox, Amazon S3"
+
+#: main/admin.php:162
+msgid "Backups are the best form of security. Secure your WordPress site by creating backups with Backuply"
+msgstr "Back-ups zijn de beste vorm van beveiliging. Beveilig je WordPress site door back-ups te maken met Backuply"
+
+#: main/settings/security.php:1020
+msgid "You can manually update your .htaccess by adding the given code at the top of your .htaccess file"
+msgstr "Je kunt je .htaccess handmatig updaten door de volgende code toe te voegen aan de bovenkant van je .htaccess bestand"
+
+#: main/settings/security.php:1019
+msgid "Manually Update .htaccess"
+msgstr ".htaccess handmatig updaten"
+
+#: main/settings/security.php:1007
+msgid "Rewrites rule to change wp-admin and if you have a Multisite then check"
+msgstr "Herschrijft regel om wp-admin te veranderen en als je een multisite hebt dan controleer je"
+
+#: main/settings/security.php:1007
+msgid "Rewrites rule for CSRF session URL"
+msgstr "Herschrijft regel voor CSRF sessie URL"
+
+#: main/settings/security.php:1006
+msgid "Update .htaccess"
+msgstr ".htaccess updaten"
+
+#: main/settings/security.php:664
+msgid "If enabled, it will update the URL of wp-admin with a random session string in the URL making it hard to predict the URL."
+msgstr "Indien ingeschakeld, wordt de URL van wp admin geüpdatet met een willekeurige sessie string in de URL, waardoor de URL moeilijk te voorspellen is."
+
+#: main/settings/security.php:663
+msgid "Enable CSRF Protection"
+msgstr "CSRF bescherming inschakelen"
+
+#: main/settings/security.php:648
+msgid "CSRF Protection"
+msgstr "Bescherming tegen CSRF"
+
+#: main/settings/security.php:627
+msgid "Was unable to update the .htaccess file so please update it manually"
+msgstr "Ik kon het .htaccess bestand niet updaten, dus update het handmatig"
+
+#: main/settings/security.php:622
+msgid ".htaccess has been updated !"
+msgstr ".htaccess is geüpdatet!"
+
+#: main/settings/security.php:535
+msgid "Note: Be careful while changing the Admin name as your CSRF Protection is on"
+msgstr "Opmerking: wees voorzichtig bij het veranderen van de beheerder naam, want je CSRF beveiliging staat aan"
+
+#: main/settings/passwordless.php:166
+msgid "Select the user roles for whom this custom redirect will be used"
+msgstr "Selecteer de gebruikersrollen waarvoor deze aangepaste omleiding zal worden gebruikt"
+
+#: main/settings/passwordless.php:165
+msgid "Custom redirect for"
+msgstr "Aangepaste omleiding voor"
+
+#: main/settings/passwordless.php:156
+msgid "Redirects user to a page of your website other than the admin panel"
+msgstr "Leidt gebruiker door naar een andere pagina van je site dan het beheerder spaneel"
+
+#: main/settings/passwordless.php:155
+msgid "Custom redirect to"
+msgstr "Aangepaste omleiding naar"
+
+#: main/settings/2fa.php:749
+msgid "Save Custom URLs"
+msgstr "Aangepaste URL's opslaan"
+
+#: main/settings/2fa.php:729
+msgid "Here you can set the URL, which you wish your user to get redirected to after login via 2FA."
+msgstr "Hier kun je de URL instellen, waar je wil dat je gebruiker naartoe wordt geleid na het login via 2FA."
+
+#: main/settings/2fa.php:718
+msgid "Custom Redirects based on roles"
+msgstr "Aangepaste omleidingen op basis van rollen"
+
+#: main/settings/brute-force.php:719
+msgid "If enabled Loginizer will only allow whitlisted IP's to Login."
+msgstr "Indien ingeschakeld zal Loginizer alleen witte IP's toestaan om in te loggen."
+
+#: main/settings/brute-force.php:716
+msgid "Trusted IP's"
+msgstr "Vertrouwde IP's"
+
+#: main/settings/brute-force.php:114
+msgid "Email Notification value is invalid"
+msgstr "E-mail melding waarde is ongeldig"
+
+#: main/settings/brute-force.php:110
+msgid "Reset Retries value is invalid"
+msgstr "Reset Retries waarde is ongeldig"
+
+#: main/settings/brute-force.php:106
+msgid "Extended Lockout value is invalid"
+msgstr "Extended Lockout waarde is ongeldig"
+
+#: main/settings/brute-force.php:102
+msgid "Max Lockouts value is invalid"
+msgstr "De waarde voor maximale uitsluitingen is ongeldig"
+
+#: main/settings/brute-force.php:90
+msgid "Add your IP to whitelist to enable Trusted IP's"
+msgstr "Je IP toevoegen aan whitelist om trusted IP's in te schakelen"
+
+#: main/admin.php:169 main/admin.php:341
+msgid "Visit Backuply"
+msgstr "Bezoek Backuply"
+
+#: main/admin.php:339
+msgid "Backup to FTP,FTPS and many more ..."
+msgstr "Back-up naar FTP, FTPS en nog veel meer …"
+
+#: main/admin.php:338
+msgid "Backup to Dropbox"
+msgstr "Back-up naar Dropbox"
+
+#: main/admin.php:337
+msgid "Backup to Amazon S3"
+msgstr "Back-up naar Amazon S3"
+
+#: main/admin.php:336
+msgid "Backup to Google Drive"
+msgstr "Back-up naar Google Drive"
+
+#: main/admin.php:335
+msgid "Stress-free Migration"
+msgstr "Stress vrije migratie"
+
+#: main/admin.php:334
+msgid "One-Click Restore"
+msgstr "Terugzetten met één klik"
+
+#: main/admin.php:333
+msgid "Backup Rotation"
+msgstr "Back-up rotatie"
+
+#: main/admin.php:165 main/admin.php:332
+msgid "Auto Backups"
+msgstr "Automatische back-ups"
+
+#: main/admin.php:331
+msgid "Remote Backup to 8 location"
+msgstr "Back-up op afstand naar 8 locaties"
+
+#: main/admin.php:329
+msgid "Secure your WordPress site by creating backups with Backuply"
+msgstr "Beveilig je WordPress site door back-ups te maken met Backuply"
+
+#: main/admin.php:454
+msgid "You have enabled CSRF protection but the .htaccess file has not been updated"
+msgstr "Je hebt CSRF bescherming ingeschakeld maar het .htaccess bestand is niet geüpdatet"
+
+#: main/admin.php:362
+msgid "Popup Builder"
+msgstr "Pop-up bouwer"
+
+#: main/admin.php:396
+msgid "v"
+msgstr "v"
+
+#: main/settings/security.php:541
+msgid "our guide"
+msgstr "onze gids"
+
+#: main/settings/security.php:541
+msgid "on how to do so !"
+msgstr "over hoe je het moet doen!"
+
+#: main/settings/brute-force.php:511
+msgid "Past"
+msgstr "Verleden"
+
+#: main/admin.php:396
+msgid "here"
+msgstr "hier"
+
+#: main/admin.php:355
+msgid "30+ Free Widgets"
+msgstr "30+ gratis widgets"
+
+#: main/admin.php:358
+msgid "Theme Builder"
+msgstr "Thema bouwer"
+
+#: main/admin.php:359
+msgid "WooCommerce Builder"
+msgstr "WooCommerce bouwer"
+
+#: main/admin.php:436
+msgid "Refer and Earn"
+msgstr "Doorverwijzen en verdienen"
+
+#: main/admin.php:278
+msgid "Premium Version"
+msgstr "Premium versie"
+
+#: main/admin.php:365
+msgid "Visit Pagelayer"
+msgstr "Bezoek Pagelayer"
+
+#: main/admin.php:357
+msgid "400+ Premium Sections"
+msgstr "400+ premium secties"
+
+#: main/admin.php:292 main/admin.php:363
+msgid "And many more ..."
+msgstr "En nog veel meer..."
+
+#: main/admin.php:285
+msgid "PasswordLess Login"
+msgstr "Wachtwoordloze login"
+
+#: main/admin.php:283
+msgid "Upgrade to the premium version and get the following features"
+msgstr "Upgrade naar de premium versie en krijg de volgende functies"
+
+#: main/admin.php:286 main/admin.php:313
+msgid "Two Factor Auth - Email"
+msgstr "Twee-factor auth - E-mail"
+
+#: main/admin.php:356
+msgid "60+ Premium Widgets"
+msgstr "60+ premium widgets"
+
+#: main/settings/dashboard.php:247
+msgid "Security PRO Version"
+msgstr "Security PRO versie"
+
+#: main/settings/brute-force.php:94
+msgid "Max Retries value is invalid"
+msgstr "Max. herhalingen waarde is ongeldig"
+
+#: main/settings/brute-force.php:98
+msgid "Lockout Time value is invalid"
+msgstr "Uitsluit tijd waarde is ongeldig"
+
+#: main/settings/brute-force.php:511
+msgid "Failed Login Attempts Logs"
+msgstr "Mislukte inlogpogingen logs"
+
+#: main/settings/security.php:331
+msgid "You can rename your Login page from"
+msgstr "Je kan de naam van je login pagina wijzigen van"
+
+#: main/settings/dashboard.php:100
+msgid "Add Review"
+msgstr "Beoordeling toevoegen"
+
+#: main/admin.php:360
+msgid "Theme Creator and Exporter"
+msgstr "Thema maker en exporteerder"
+
+#: main/admin.php:315
+msgid "Change 'admin' Username"
+msgstr "Verander \"Admin\" gebruikersnaam"
+
+#: main/settings/dashboard.php:100
+msgid "Thank you for choosing Loginizer! Many more features coming soon... &nbsp; Review Loginizer at WordPress &nbsp; &nbsp;"
+msgstr "Dank je voor het kiezen van Loginizer! Veel meer functies binnenkort... &nbsp; Beoordeel Loginizer bij WordPress &nbsp; &nbsp;"
+
+#: main/admin.php:308
+msgid "We recommed that you enable atleast one of the following security features"
+msgstr "Wij raden je aan om ten minste één van de volgende beveiligingsfuncties in te schakelen"
+
+#: main/admin.php:353
+msgid "Easily manage and make professional pages and content with our Pagelayer builder"
+msgstr "Beheer en maak eenvoudig professionele pagina's en inhoud met onze Pagelayer builder"
+
+#: main/settings/dashboard.php:130
+msgid "Welcome to Loginizer Security. By default the <b>Brute Force Protection</b> is immediately enabled. You should start by going over the default settings and tweaking them as per your needs."
+msgstr "Welkom bij Loginizer Security. Standaard is de <b>brute force bescherming</b> ingeschakeld. Begin met de standaardinstellingen door te nemen en ze aan te passen aan je behoeften."
+
+#: main/settings/security.php:331
+msgid " to anything of your choice e.g. mylogin. This would make it very difficult for automated attack bots to know where to login !"
+msgstr " naar iets van je keuze, b.v. mylogin. Dit zou het voor geautomatiseerde aanvalsbots erg moeilijk maken om te weten waar ze moeten inloggen!"
+
+#: main/settings/dashboard.php:135
+msgid "Upgrade to Pro</a> for more features like <b>reCAPTCHA, Two Factor Auth, Rename wp-admin and wp-login.php pages, Email based PasswordLess</b> login and more. These features will improve your website's security."
+msgstr "Upgrade naar Pro</a> voor meer functies zoals <b>reCAPTCHA, dubbele factor auth, hernoemen wp-admin en wp-login.php pagina's, e-mail gebaseerde wachtwoordloze</b> login en meer. Deze functies zullen je website veiligheid verbeteren."
+
+#: main/settings/security.php:541
+msgid "You can rename your WordPress Admin access URL <b>wp-admin</b> to anything of your choice e.g. my-admin. This will require you to change .htaccess, so please follow"
+msgstr "Je kan je WordPress beheerder toegang URL <b>wp-admin</b> hernoemen naar een URL naar keuze, bijv. mijn-admin. Dit vereist dat je .htaccess wijzigt, dus volg"
+
+#: main/settings/dashboard.php:133
+msgid "In the Premium version of Loginizer you have many more features. We recommend you enable features like <b>reCAPTCHA, Two Factor Auth or Email based PasswordLess</b> login. These features will improve your websites security"
+msgstr "In de Premium versie van Loginizer heb je meer krachtige functies. We raden aan dat je functies zoals <b>reCAPTCHA, dubbele authenticatie of e-mail gebaseerde wachtwoordloze</b> login inschakelt. Dit zal de veiligheid van je website verhogen"
+
+#: main/admin.php:381
+msgid "I just secured my @WordPress site against #bruteforce using @loginizer"
+msgstr "Ik heb zojuist mijn @WordPress site beveiligd tegen #bruteforce met behulp van @loginizer"
+
+#: main/admin.php:379
+msgid "Let your friends know that you have secured your website :"
+msgstr "Laat je vrienden weten dat je je site beveiligd hebt:"
+
+#: main/admin.php:361
+msgid "Form Builder"
+msgstr "Formulierfunctie"
+
+#: main/admin.php:304
+msgid "Recommendations"
+msgstr "Aanbevelingen"
+
+#: main/admin.php:288 main/admin.php:311
+msgid "Login Challenge Question"
+msgstr "Login challenge vraag"
+
+#: main/admin.php:287 main/admin.php:314
+msgid "Two Factor Auth - App"
+msgstr "Twee factor auth - app"
+
+#: main/settings/security.php:46 main/settings/security.php:164
+msgid "The wp-login.php and wp-admin slugs cannot be the same. Choose unique names for login and admin slugs"
+msgstr "De wp-login.php en wp-admin slugs mogen niet hetzelfde zijn. Kies unieke namen voor login en beheer slugs"
+
+#: main/settings/recaptcha.php:449
+msgid "(Default)"
+msgstr "(Standaard)"
+
+#: main/settings/recaptcha.php:313
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: main/settings/recaptcha.php:314
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: main/settings/recaptcha.php:442
+msgid "reCAPTCHA Domain"
+msgstr "reCAPTCHA domein"
+
+#: main/settings/recaptcha.php:309
+msgid "Captcha Status"
+msgstr "Captcha status"
+
+#: main/settings/recaptcha.php:238
+msgid "The reCAPTCHA domain is invalid"
+msgstr "Het reCAPTCHA domein is ongeldig"
+
+#: main/settings/recaptcha.php:443
+msgid "If Google is not accessible or blocked in your country select other one"
+msgstr "Als Google niet toegankelijk of geblokkeerd is in je land, selecteer een andere"
+
+#: main/settings/brute-force.php:710
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: main/settings/brute-force.php:86
+msgid "Email address is invalid"
+msgstr "E-mailadres is ongeldig"
+
+#: main/settings/brute-force.php:712
+msgid "failed login attempts notifications will be sent to this email"
+msgstr "notificaties over mislukte aanmeldingspogingen worden naar deze e-mail verzonden"
+
+#: main/settings/brute-force.php:1225
+msgid "Line no."
+msgstr "Regel nr."
+
+#: main/ajax.php:94 main/ajax.php:147
+msgid "No data to export"
+msgstr "Geen gegevens om te exporteren"
+
+#: main/settings/brute-force.php:991
+msgid "Import Whitelist IPs (CSV)"
+msgstr "Lijst toegestane IPs (CSV) importeren"
+
+#: main/settings/brute-force.php:653 main/settings/brute-force.php:901
+#: main/settings/brute-force.php:1005
+msgid "Export CSV"
+msgstr "CSV exporteren"
+
+#: main/settings/brute-force.php:900 main/settings/brute-force.php:1004
+msgid "Import CSV"
+msgstr "CSV importeren"
+
+#: main/settings/brute-force.php:887
+msgid "Import Blacklist IPs (CSV)"
+msgstr "Blokkeerlijst IPs (CSV) importeren"
+
+#: main/settings/brute-force.php:651
+msgid "Blacklist Selected IPs"
+msgstr "Geselecteerde IPs op de blokkeerlijst"
+
+#: main/settings/brute-force.php:451
+msgid "No IP(s) selected"
+msgstr "Geen IP('s) geselecteerd"
+
+#: main/settings/brute-force.php:444
+msgid "The selected IP(s) have been blacklisted"
+msgstr "De geselecteerde IP('s) zijn op de blokkeerlijst geplaatst"
+
+#: main/settings/brute-force.php:389
+msgid "Imported "
+msgstr "Geïmporteerd "
+
+#: main/settings/brute-force.php:341
+msgid "Invalid import type"
+msgstr "Ongeldig import type"
+
+#: main/settings/brute-force.php:890 main/settings/brute-force.php:994
+msgid "Submit"
+msgstr "Verzend"
+
+#: main/settings/brute-force.php:1144 main/settings/passwordless.php:148
+msgid "Send email as HTML"
+msgstr "Verzend e-mail als HTML"
+
+#: main/settings/2fa.php:680
+msgid "No Whitelist IPs for Two Factor Authentication. You will see whitelisted IP ranges here."
+msgstr "Geen IP voor tweefactor authenticatie in de toegestane lijst. Je ziet hier de IP bereiken van de toegestane lijst."
+
+#: main/settings/2fa.php:663
+msgid "Delete All Whitelist IP Range(s) for 2FA"
+msgstr "Verwijder alle IP bereiken voor 2FA uit de toegestane lijst"
+
+#: main/settings/2fa.php:663
+msgid "Are you sure you want to delete all Whitelist IP Range(s) for 2FA ?"
+msgstr "Weet je zeker dat je alle IP bereiken in de toegestane lijst voor 2FA wil verwijderen?"
+
+#: main/settings/2fa.php:645
+msgid "Enter the IP you want to whitelist for two factor authentication"
+msgstr "Voer het IP-adres in dat je op de toegestane lijst wil zetten voor tweefactor authenticatie"
+
+#: main/settings/2fa.php:639
+msgid "Disable Two Factor Authentication for IP"
+msgstr "Schakel tweefactor authenticatie uit voor een IP"
+
+#: main/settings/2fa.php:254
+msgid "Whitelist IP range for Two Factor Authentication added successfully"
+msgstr "Toegestane lijst IP-bereik voor tweefactor authenticatie succesvol toegevoegd"
+
+#: main/settings/2fa.php:523
+msgid "Title for Security Answer"
+msgstr "Titel voor het veiligheids antwoord"
+
+#: main/settings/2fa.php:513
+msgid "Title for Security Question"
+msgstr "Titel voor de veiligheidsvraag"
+
+#: main/settings/2fa.php:503
+msgid "Title for OTP field"
+msgstr "Titel voor het OTP veld"
+
+#: main/settings/2fa.php:483
+msgid "OTP via APP"
+msgstr "OTP via APP"
+
+#: main/settings/2fa.php:478
+msgid "If you do not make changes below the default messages will be used !"
+msgstr "Als je geen wijzigingen hieronder maakt zullen standaard berichten worden gebruikt!"
+
+#: main/settings/2fa.php:477
+msgid "Customize the title for OTP field displayed to the user on the login form."
+msgstr "Pas de titel voor het OTP veld aan dat getoont wordt aan de gebruiker op het login formulier."
+
+#: main/settings/2fa.php:466
+msgid "Custom Messages for OTP"
+msgstr "Aangepast bericht voor OTP"
+
+#: main/settings/2fa.php:422
+msgid "If you do not make changes below the default email template will be used !"
+msgstr "Als je geen wijzigingen maakt hieronder dan zal de standaard e-mail template gebruikt worden!"
+
+#: main/settings/2fa.php:410
+msgid "OTP via Email Template"
+msgstr "OTP via e-mail template"
+
+#: main/settings/2fa.php:149
+msgid "Messages were saved successfully"
+msgstr "Berichten zijn met succes opgeslagen"
+
+#: init.php:937
+msgid "Your Answer"
+msgstr "Je antwoord"
+
+#: init.php:935
+msgid "One Time Password"
+msgstr "Eenmalig wachtwoord"
+
+#: init.php:933
+msgid "Please enter the OTP as seen in your App"
+msgstr "Geef je OTP in zoals je die ziet in je app"
+
+#: main/settings/2fa.php:421
+msgid "Customize the email template to be used when sending the OTP to login via Email for 2FA."
+msgstr "Pas de e-mail template aan om te gebruiken wanneer een OTP verzonden wordt om in te loggen via e-mail voor 2FA."
+
+#: init.php:936
+msgid "Please answer your security question"
+msgstr "Beantwoord je beveiligingsvraag"
+
+#: init.php:934
+msgid "Please enter the OTP emailed to you"
+msgstr "Voer de OTP in die naar je is gemaild"
+
+#: main/settings/2fa.php:532
+msgid "Save Messages"
+msgstr "Berichten opslaan"
+
+#: main/settings/brute-force.php:1099
+msgid "Hours"
+msgstr "Uren"
+
+#: main/settings/brute-force.php:1092
+msgid "Minutes"
+msgstr "Minuten"
+
+#: init.php:922
+msgid "hour(s)"
+msgstr "uur/uren"
+
+#: init.php:921
+msgid "minute(s)"
+msgstr "minuut(en))"
+
+#: main/settings/checksum.php:378
+msgid "Remove Selected from Ignore List"
+msgstr "Verwijder geselecteerde uit negeerlijst"
+
+#: main/settings/checksum.php:371
+msgid "No files have been added to the ignore list"
+msgstr "Er zijn geen bestanden toegevoegd aan de negeerlijst"
+
+#: main/settings/checksum.php:329
+msgid "Ignore List"
+msgstr "Negeer lijst"
+
+#: main/settings/checksum.php:318
+msgid "Add Selected to Ignore List"
+msgstr "Voeg geselecteerde toe aan negeerlijst"
+
+#: main/settings/checksum.php:289 main/settings/checksum.php:346
+msgid "Should be"
+msgstr "Zou moeten zijn"
+
+#: main/settings/checksum.php:288 main/settings/checksum.php:345
+msgid "Found"
+msgstr "Gevonden"
+
+#: main/settings/checksum.php:263
+msgid "Mismatching Files"
+msgstr "Niet-overeenkomende bestanden"
+
+#: main/settings/checksum.php:228
+msgid "Time of Day"
+msgstr "Tijdstip"
+
+#: main/settings/checksum.php:196 main/settings/checksum.php:249
+msgid "If disabled, Loginizer will not check your sites core files against the WordPress checksum list."
+msgstr "Indien uitgeschakeld, zal Loginizer de core bestanden van je site niet vergelijken met de WordPress checksom lijst."
+
+#: main/settings/checksum.php:195
+msgid "Disable Checksum of WP Core"
+msgstr "Schakel checksom van WP Core uit"
+
+#: main/settings/checksum.php:60
+msgid "Once a Month"
+msgstr "Eens per maand"
+
+#: main/settings/checksum.php:59
+msgid "Once a Week"
+msgstr "Een keer per week"
+
+#: main/settings/checksum.php:58
+msgid "Once a Day"
+msgstr "Een keer per dag"
+
+#: main/settings/security.php:871
+msgid "Save Domains(s)"
+msgstr "Domein(en) opslaan"
+
+#: main/settings/security.php:840
+msgid "Domain(s)"
+msgstr "Domein(en)"
+
+#: main/settings/security.php:825
+msgid "New Registration Domain Blacklist"
+msgstr "Nieuwe blokkeer lijst voor registratiedomeinen"
+
+#: main/settings/security.php:806
+msgid "Save Username(s)"
+msgstr "Gebruikersnaam(en) opslaan"
+
+#: main/settings/security.php:802
+msgid "Add New Username"
+msgstr "Nieuwe gebruikersnaam toevoegen"
+
+#: main/settings/security.php:776 main/settings/security.php:841
+msgid "You can use - <b>*</b> (Star)- as a wild card as well. Blank fields will be ignored"
+msgstr "Je kan - <b>*</b> (ster) - ook als jokerteken gebruiken. Lege velden worden genegeerd"
+
+#: main/settings/security.php:775
+msgid "Username(s)"
+msgstr "Gebruikersnaam(en)"
+
+#: main/settings/security.php:736
+msgid "Set the Username"
+msgstr "Stel de gebruikersnaam in"
+
+#: main/settings/security.php:728
+msgid "The new username you want to set"
+msgstr "De nieuwe gebruikersnaam die je wil instellen"
+
+#: main/settings/security.php:727
+msgid "New Username"
+msgstr "Nieuwe gebruikersnaam"
+
+#: main/settings/security.php:719
+msgid "The current username you want to change"
+msgstr "De huidige gebruikersnaam die je wil wijzigen"
+
+#: main/settings/security.php:718
+msgid "Current Username"
+msgstr "Huidige gebruikersnaam"
+
+#: main/settings/security.php:713
+msgid "You can change the Admin Username from here to anything of your choice e.g. iamtheboss. This would make it very difficult for automated attack bots to know what is the admin username !"
+msgstr "Je kan de gebruikersnaam van de beheerder hier wijzigen in iets naar keuze, bijv. ik ben de baas. Dit zou het erg moeilijk maken voor geautomatiseerde aanvalsrobots om te weten wat de beheer gebruikersnaam is!"
+
+#: main/settings/security.php:703
+msgid "Change Admin Username"
+msgstr "Wijzig de gebruikersnaam van de beheerder"
+
+#: main/settings/security.php:577
+msgid "I have setup .htaccess"
+msgstr "Ik heb .htaccess ingesteld"
+
+#: main/settings/security.php:555
+msgid "Disable wp-admin access"
+msgstr "Schakel wp-admin toegang uit"
+
+#: main/settings/security.php:547
+msgid "Set blank to reset to the original wp-admin URL"
+msgstr "Stel blanco in om te resetten naar de oorspronkelijke wp-admin URL"
+
+#: main/settings/security.php:528
+msgid "Rename wp-admin access feature is supported only on Apache and Litespeed"
+msgstr "De functie voor toegang tot wp-admin hernoemen wordt alleen ondersteund op Apache en Litespeed"
+
+#: main/settings/security.php:514
+msgid "Rename wp-admin access"
+msgstr "Hernoem wp-admin access"
+
+#: main/settings/security.php:496
+msgid "Everything seems to be good. You can proceed to save the settings !"
+msgstr "Alles lijkt goed te zijn. Je kan doorgaan met het opslaan van de instellingen!"
+
+#: main/settings/security.php:431
+msgid "Set blank to reset to the original XML-RPC URL"
+msgstr "Stel blanco in om te resetten naar de oorspronkelijke XML-RPC URL"
+
+#: main/settings/security.php:430
+msgid "New XML-RPC Slug"
+msgstr "Nieuwe XML-RPC Slug"
+
+#: main/settings/security.php:399
+msgid "XML-RPC Settings"
+msgstr "XML-RPC instellingen"
+
+#: main/settings/security.php:336
+msgid "New Login Slug"
+msgstr "Nieuwe login slug"
+
+#: main/admin.php:290 main/admin.php:310 main/settings/security.php:321
+msgid "Rename Login Page"
+msgstr "Naam van aanmeldingspagina wijzigen"
+
+#: main/settings/security.php:182
+msgid "Special characters are not allowed"
+msgstr "Speciale karakters zijn niet toegestaan"
+
+#: main/settings/security.php:176
+msgid "The new Admin slug length must be greater than <b>4</b> chars and upto <b>50</b> chars long"
+msgstr "De nieuwe Beheer slug lengte moet groter zijn dan <b>4</b> tekens en maximaal <b>50</b> tekens lang"
+
+#: main/settings/security.php:409
+msgid "WordPress's XML-RPC feature allows external services to access and modify content on the site. Services like the Jetpack plugin, the WordPress mobile app, pingbacks, etc make use of the XML-RPC feature. If this site does not use a service that requires XML-RPC, please <b>disable</b> the XML-RPC feature as it prevents attackers from using the feature to attack the site. If your service can use a custom XML-RPC URL, you can also <b>rename</b> the XML-RPC page to a <b>custom slug</b>."
+msgstr "Met de XML-RPC functie van WordPress kunnen externe diensten toegang krijgen tot inhoud op de site en deze wijzigen. Diensten zoals de Jetpack plugin, de mobiele WordPress app, pingbacks, enz. Maken gebruik van de XML-RPC functie. Als deze site geen gebruik maakt van een service waarvoor XML-RPC is vereist, <b>schakel uit</b> de XML-RPC-functie aangezien deze voorkomt dat aanvallers de functie gebruiken om de site aan te vallen. Als je service een aangepaste XML-RPC URL kan gebruiken, kan je de XML-RPC pagina ook <b>ombenoemen</b> naar een <b>eigen slug</b>."
+
+#: main/settings/security.php:170
+msgid "You have not confirmed that you have read the guide and configured .htaccess. Please read the guide, configure .htaccess and then save these settings and check this checkbox"
+msgstr "Je hebt niet bevestigd dat je de handleiding hebt gelezen en .htaccess hebt geconfigureerd. Lees de handleiding, configureer .htaccess en sla deze instellingen op en schakel dit selectievakje in"
+
+#: main/settings/security.php:110
+msgid "The user is not an administrator. Only administrator user's username can be changed."
+msgstr "De gebruiker is geen beheerder. Alleen de gebruikersnaam van de beheerder kan worden gewijzigd."
+
+#: main/settings/security.php:105
+msgid "No user found with the current username provided"
+msgstr "Geen gebruiker gevonden met de huidige opgegeven gebruikersnaam"
+
+#: main/settings/security.php:98
+msgid "The new username is already assigned to another user"
+msgstr "De nieuwe gebruikersnaam is al toegewezen aan een andere gebruiker"
+
+#: main/settings/security.php:89
+msgid "The username begins with <b>admin</b>. Please change it !"
+msgstr "De gebruikersnaam begint met <b>admin</b>. Wijzig het alsjeblieft!"
+
+#: main/settings/security.php:83
+msgid "New username is required"
+msgstr "Nieuwe gebruikersnaam is vereist"
+
+#: main/settings/security.php:78
+msgid "Current username is required"
+msgstr "Huidige gebruikersnaam is vereist"
+
+#: main/settings/security.php:53
+msgid "The XML-RPC slug length must be greater than <b>4</b> chars and upto <b>50</b> chars long"
+msgstr "De XML-RPC slug lengte moet groter zijn dan <b>4</b> tekens en tot <b>50</b> tekens lang"
+
+#: main/settings/security.php:39
+msgid "The Login slug length must be greater than <b>4</b> chars and upto <b>50</b> chars long"
+msgstr "De lengte van de login-slug moet groter zijn dan <b>4</b> tekens en tot <b>50</b> tekens lang"
+
+#: main/settings/2fa.php:438 main/settings/brute-force.php:1168
+#: main/settings/passwordless.php:134
+msgid "Set blank to reset to the default message"
+msgstr "Stel blanco in om het standaardbericht te herstellen"
+
+#: main/settings/2fa.php:437 main/settings/brute-force.php:1167
+#: main/settings/passwordless.php:133
+msgid "Email Body"
+msgstr "E-mail tekst"
+
+#: main/settings/2fa.php:428 main/settings/brute-force.php:1154
+#: main/settings/passwordless.php:124
+msgid "Set blank to reset to the default subject"
+msgstr "Stel blanco in om het standaardonderwerp te herstellen"
+
+#: main/settings/2fa.php:427 main/settings/brute-force.php:1153
+#: main/settings/passwordless.php:123
+msgid "Email Subject"
+msgstr "E-mail onderwerp"
+
+#: main/settings/passwordless.php:118
+msgid "If a wrong username/email is given, the brute force checker will prevent any brute force attempt !"
+msgstr "Als een verkeerde gebruikersnaam/e-mailadres wordt opgegeven, zal de brute force-checker elke poging tot brute force voorkomen!"
+
+#: main/settings/passwordless.php:100
+msgid "PasswordLess Settings"
+msgstr "Wachtwoordloze instellingen"
+
+#: main/settings/2fa.php:567
+msgid "Reset 2FA for User"
+msgstr "Reset 2FA voor gebruiker"
+
+#: main/settings/2fa.php:559
+msgid "The username or email of the user whose 2FA you would like to disable"
+msgstr "De gebruikersnaam of het e-mailadres van de gebruiker wiens 2FA je wil uitschakelen"
+
+#: main/settings/2fa.php:558
+msgid "Username / Email"
+msgstr "Gebruikersnaam / E-mail"
+
+#: main/settings/2fa.php:553
+msgid "Here you can disable the Two Factor Authentication settings of a user. In the event a user has forgotten his secret answer or lost his Device App, he will not be able to login. You can reset such a users settings from here."
+msgstr "Hier kan je de Two Factor authenticatie instellingen van een gebruiker uitschakelen. In het geval dat een gebruiker zijn geheime antwoord is vergeten of zijn apparaat App is kwijtgeraakt, kan hij niet inloggen. Je kan de instellingen van dergelijke gebruikers vanaf hier opnieuw instellen."
+
+#: main/settings/2fa.php:542
+msgid "Disable Two Factor Authentication for a User"
+msgstr "Schakel tweefactor authenticatie uit voor een gebruiker"
+
+#: main/settings/2fa.php:368
+msgid "Select the Roles to which 2FA should be applied."
+msgstr "Selecteer de rollen waarop 2FA moet worden toegepast."
+
+#: main/settings/2fa.php:367
+msgid "Apply 2FA to Roles"
+msgstr "Pas 2FA toe op rollen"
+
+#: main/settings/2fa.php:359
+msgid "If the user does not have any 2FA method selected, this will enforce the OTP via Email for the users."
+msgstr "Als de gebruiker geen 2FA-methode heeft geselecteerd, zal dit de OTP via e-mail voor de gebruikers afdwingen."
+
+#: main/settings/2fa.php:358
+msgid "Force OTP via Email"
+msgstr "Forceer OTP via e-mail"
+
+#: main/settings/2fa.php:347
+msgid "In this method the user will be asked to set a secret personal question and answer. After entering the correct login credentials, the user will be asked to answer the question set by them, thus increasing the security"
+msgstr "Bij deze methode wordt de gebruiker gevraagd om een ​​geheime persoonlijke vraag en antwoord in te stellen. Na het invoeren van de juiste inloggegevens, wordt de gebruiker gevraagd om de door hem gestelde vraag te beantwoorden, waardoor de veiligheid wordt verhoogd"
+
+#: main/settings/2fa.php:346
+msgid "User Defined Question & Answer"
+msgstr "Door gebruiker gedefinieerde vraag & antwoord"
+
+#: main/settings/2fa.php:338
+msgid "After entering the correct login credentials, the user will be asked for the OTP. The OTP will be emailed to the user."
+msgstr "Na het invoeren van de juiste inloggegevens, wordt de gebruiker om de OTP gevraagd. De OTP wordt naar de gebruiker gemaild."
+
+#: main/settings/2fa.php:337 main/settings/2fa.php:493
+msgid "OTP via Email"
+msgstr "OTP via e-mail"
+
+#: main/settings/2fa.php:329
+msgid "After entering the correct login credentials, the user will be asked for the OTP. The OTP will be obtained from the users mobile app e.g. <b>Google Authenticator, Authy, etc.</b>"
+msgstr "Na het invoeren van de juiste inloggegevens, wordt de gebruiker om de OTP gevraagd. De OTP wordt verkregen via de mobiele app van de gebruiker, bijv. <b>Google Authenticator, Authy, enz.</b>"
+
+#: main/settings/2fa.php:323
+msgid "Please choose from the following Two Factor Authentication methods. Each user can choose any one method from the ones enabled by you. You can enable all or anyone that you would like."
+msgstr "Kies uit de volgende twee-factore authenticatie methoden. Elke gebruiker kan een van de methoden kiezen die door je zijn ingeschakeld. Je kan alles of iedereen inschakelen die je wil."
+
+#: main/settings/2fa.php:102
+msgid "The user's 2FA settings have been reset"
+msgstr "De 2FA-instellingen van de gebruiker zijn gereset"
+
+#: main/settings/2fa.php:88
+msgid "There is no such user with the email or username you submitted"
+msgstr "Er is geen dergelijke gebruiker met de e-mail of gebruikersnaam die je hebt opgegeven"
+
+#: main/settings/recaptcha.php:609
+msgid "Hide CAPTCHA for logged in Users"
+msgstr "Verberg CAPTCHA voor ingelogde gebruikers"
+
+#: main/settings/recaptcha.php:585
+msgid "Comment Form"
+msgstr "Reactie formulier"
+
+#: main/settings/recaptcha.php:577
+msgid "Reset Password Form"
+msgstr "Wachtwoord opnieuw instellen"
+
+#: main/settings/recaptcha.php:573
+msgid "Lost Password Form"
+msgstr "Wachtwoord vergeten"
+
+#: main/settings/recaptcha.php:569 main/settings/social_login.php:310
+#: main/settings/social_login.php:403 main/settings/social_login.php:462
+msgid "Login Form"
+msgstr "Login formulier"
+
+#: main/settings/recaptcha.php:552
+msgid "Multiplication (x)"
+msgstr "Vermenigvuldiging (x)"
+
+#: main/settings/recaptcha.php:548
+msgid "Subtraction (-)"
+msgstr "Aftrekken (-)"
+
+#: main/settings/recaptcha.php:544
+msgid "Addition (+)"
+msgstr "Optellen (+)"
+
+#: main/settings/recaptcha.php:538
+msgid "The Mathematical operations to use for Captcha"
+msgstr "De wiskundige bewerkingen die voor Captcha moeten worden gebruikt"
+
+#: main/settings/recaptcha.php:537
+msgid "Mathematical operations"
+msgstr "Wiskundige bewerkingen"
+
+#: main/settings/recaptcha.php:529
+msgid "If selected the Captcha will be displayed in words rather than numbers"
+msgstr "Indien geselecteerd, wordt de Captcha weergegeven in woorden in plaats van in cijfers"
+
+#: main/settings/recaptcha.php:528
+msgid "Display Captcha in Words"
+msgstr "Geef Captcha in woorden weer"
+
+#: main/settings/recaptcha.php:520
+msgid "Enter the number of seconds, a user has to enter captcha value."
+msgstr "Voer het aantal seconden in, waarin een gebruiker de captcha-waarde moet invoeren."
+
+#: main/settings/recaptcha.php:519
+msgid "Captcha Time"
+msgstr "Captcha tijd"
+
+#: main/settings/recaptcha.php:511
+msgid "The text to be shown for the Captcha Field"
+msgstr "De tekst die voor het Captcha-veld moet worden weergegeven"
+
+#: main/settings/recaptcha.php:510
+msgid "Captcha Text"
+msgstr "Captcha tekst"
+
+#: main/settings/recaptcha.php:365 main/settings/recaptcha.php:429
+#: main/settings/recaptcha.php:496
+msgid "Size"
+msgstr "Grootte"
+
+#: main/settings/recaptcha.php:352 main/settings/recaptcha.php:417
+#: main/settings/recaptcha.php:484
+msgid "Language"
+msgstr "Taal"
+
+#: main/settings/recaptcha.php:340 main/settings/recaptcha.php:405
+#: main/settings/recaptcha.php:471
+msgid "Theme"
+msgstr "Thema"
+
+#: main/settings/recaptcha.php:334 main/settings/recaptcha.php:399
+#: main/settings/recaptcha.php:465
+msgid "Secret Key"
+msgstr "Geheime sleutel"
+
+#: main/settings/recaptcha.php:325 main/settings/recaptcha.php:391
+msgid "Make sure you enter the correct keys as per the reCAPTCHA type selected above"
+msgstr "Zorg ervoor dat je de juiste sleutels invoert volgens het hierboven geselecteerde reCAPTCHA-type"
+
+#: main/settings/recaptcha.php:386
+msgid "reCAPTCHA v2 - Invisible"
+msgstr "reCAPTCHA v2 - Onzichtbaar"
+
+#: main/settings/recaptcha.php:385
+msgid "reCAPTCHA v2 - Checkbox"
+msgstr "reCAPTCHA v2 - Selectievakje"
+
+#: main/settings/recaptcha.php:384
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: main/settings/recaptcha.php:381
+msgid "<a href=\"https://g.co/recaptcha/sitetypes/\" target=\"_blank\">See Site Types for more details</a>"
+msgstr "<a href=\"https://g.co/recaptcha/sitetypes/\" target=\"_blank\">Zie sitetypes voor meer details</a>"
+
+#: main/settings/recaptcha.php:380
+msgid "Choose the type of reCAPTCHA"
+msgstr "Kies het type reCAPTCHA"
+
+#: main/settings/recaptcha.php:379
+msgid "reCAPTCHA type"
+msgstr "reCAPTCHA-type"
+
+#: main/settings/recaptcha.php:299
+msgid "reCAPTCHA Settings"
+msgstr "reCAPTCHA instellingen"
+
+#: main/settings/recaptcha.php:279
+msgid "reCAPTCHA has been disabled !"
+msgstr "reCAPTCHA is uitgeschakeld!"
+
+#: main/settings/recaptcha.php:234
+msgid "The reCAPTCHA language is invalid"
+msgstr "De reCAPTCHA taal is ongeldig"
+
+#: main/settings/recaptcha.php:229
+msgid "The reCAPTCHA size is invalid"
+msgstr "De reCAPTCHA grootte is ongeldig"
+
+#: main/settings/recaptcha.php:224
+msgid "The reCAPTCHA theme is invalid"
+msgstr "Het reCAPTCHA thema is ongeldig"
+
+#: main/settings/recaptcha.php:219
+msgid "The reCAPTCHA secret is invalid"
+msgstr "Het reCAPTCHA geheim is ongeldig"
+
+#: main/settings/recaptcha.php:155
+msgid "The Captcha key was not submitted"
+msgstr "De Captcha-sleutel is niet verzonden"
+
+#: main/settings/2fa.php:17 main/settings/checksum.php:42
+#: main/settings/passwordless.php:17 main/settings/recaptcha.php:21
+#: main/settings/security.php:17
+msgid "This feature is not available in the Free version. <a href=\""
+msgstr "Deze functie is niet beschikbaar in de gratis versie. <a href="
+
+#: main/settings/brute-force.php:1106
+msgid "Save Error Messages"
+msgstr "Bewaar foutmeldingen"
+
+#: main/settings/brute-force.php:1085
+msgid "Lockout Error"
+msgstr "Uitsluitingsfout"
+
+#: main/settings/brute-force.php:1078
+msgid "Attempts Left"
+msgstr "Pogingen over"
+
+#: main/settings/brute-force.php:1071
+msgid "Blacklisted IP"
+msgstr "IP op blokkeer lijst"
+
+#: main/settings/2fa.php:484 main/settings/2fa.php:494
+#: main/settings/2fa.php:504 main/settings/2fa.php:514
+#: main/settings/2fa.php:524 main/settings/brute-force.php:1067
+#: main/settings/brute-force.php:1074 main/settings/brute-force.php:1081
+#: main/settings/brute-force.php:1088 main/settings/brute-force.php:1095
+#: main/settings/brute-force.php:1102
+msgid "Default: <em>&quot;"
+msgstr "Standaard: <em>&quot;"
+
+#: main/settings/brute-force.php:1064
+msgid "Failed Login Attempt"
+msgstr "Mislukte aanmeldingspoging"
+
+#: main/settings/brute-force.php:1054
+msgid "Error Messages"
+msgstr "Foutmeldingen"
+
+#: main/settings/brute-force.php:1022
+msgid "No Whitelist IPs. You will see whitelisted IP ranges here."
+msgstr "Geen IP-adressen op de toegestane lijst. Je ziet hier IP-bereiken op de toegestane lijst."
+
+#: main/settings/2fa.php:662 main/settings/brute-force.php:979
+msgid "Add Whitelist IP Range"
+msgstr "IP-bereik aan toegestane lijst toevoegen"
+
+#: main/settings/2fa.php:658 main/settings/brute-force.php:975
+msgid "End IP of the range. <br />If you want to whitelist single IP leave this field blank."
+msgstr "Einde IP van het bereik.<br />Als je een enkel IP-adres op de toegestane lijst wil zetten, laat je dit veld leeg."
+
+#: main/settings/brute-force.php:962
+msgid "Enter the IP you want to whitelist for login"
+msgstr "Voer het IP-adres in dat je op de toegestane lijst wil zetten om in te loggen"
+
+#: main/settings/brute-force.php:956
+msgid "Whitelist IP"
+msgstr "Toegestane lijst IP"
+
+#: main/settings/brute-force.php:919
+msgid "No Blacklist IPs. You will see blacklisted IP ranges here."
+msgstr "Geen blokkeer lijst-IP's. Je ziet hier op de blokkeer lijst geplaatste IP-bereiken."
+
+#: main/settings/2fa.php:673 main/settings/brute-force.php:912
+#: main/settings/brute-force.php:1015
+msgid "Options"
+msgstr "Opties"
+
+#: main/settings/2fa.php:672 main/settings/brute-force.php:911
+#: main/settings/brute-force.php:1014
+msgid "Date (DD/MM/YYYY)"
+msgstr "Datum (DD/MM/JJJJ)"
+
+#: main/settings/2fa.php:671 main/settings/brute-force.php:910
+#: main/settings/brute-force.php:1013
+msgid "End IP"
+msgstr "Einde IP"
+
+#: main/settings/brute-force.php:875
+msgid "Add Blacklist IP Range"
+msgstr "Voeg blokkeer lijst IP bereik toe"
+
+#: main/settings/brute-force.php:871
+msgid "End IP of the range. <br />If you want to blacklist single IP leave this field blank."
+msgstr "Einde IP van het bereik.<br />Als je enkele IP-adressen op de blokkeer lijst wil zetten, laat dit veld dan leeg."
+
+#: main/settings/2fa.php:656 main/settings/brute-force.php:869
+#: main/settings/brute-force.php:973
+msgid "End IP (Optional)"
+msgstr "Einde IP (optioneel)"
+
+#: main/settings/2fa.php:652 main/settings/brute-force.php:865
+#: main/settings/brute-force.php:969
+msgid "Start IP of the range"
+msgstr "Start IP van het bereik"
+
+#: main/settings/2fa.php:650 main/settings/2fa.php:670
+#: main/settings/brute-force.php:863 main/settings/brute-force.php:909
+#: main/settings/brute-force.php:967 main/settings/brute-force.php:1012
+msgid "Start IP"
+msgstr "Start IP"
+
+#: main/settings/brute-force.php:851
+msgid "Blacklist IP"
+msgstr "IP op blokkeer lijst"
+
+#: main/settings/brute-force.php:739
+msgid "Enable Brute Force Protection"
+msgstr "Schakel Brute Force bescherming in"
+
+#: main/settings/brute-force.php:735
+msgid "Disable Brute Force Protection"
+msgstr "Schakel Brute Force Protection uit"
+
+#: main/settings/2fa.php:382 main/settings/2fa.php:456
+#: main/settings/brute-force.php:730 main/settings/brute-force.php:1208
+#: main/settings/checksum.php:253 main/settings/passwordless.php:215
+#: main/settings/recaptcha.php:615 main/settings/security.php:384
+#: main/settings/security.php:438 main/settings/security.php:586
+#: main/settings/security.php:674 main/settings/security.php:954
+#: main/settings/social_login.php:453 main/settings/social_login.php:500
+#: main/settings/social_login.php:531
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: main/settings/brute-force.php:706
+msgid "lockouts <br />0 to disable email notifications"
+msgstr "uitsluitingen<br />0 om e-mail berichten uit te schakelen"
+
+#: main/settings/brute-force.php:511 main/settings/brute-force.php:699
+msgid "hours"
+msgstr "uren"
+
+#: main/settings/brute-force.php:697
+msgid "Reset Retries"
+msgstr "Reset nieuwe pogingen"
+
+#: main/settings/brute-force.php:693
+msgid "hours. Extend Lockout time after Max Lockouts"
+msgstr "uren. Verleng de uitsluiting tijd na Max uitsluitingen"
+
+#: main/settings/brute-force.php:691
+msgid "Extend Lockout"
+msgstr "Verleng de uitsluiting"
+
+#: main/settings/brute-force.php:681
+msgid "minutes"
+msgstr "minuten"
+
+#: main/settings/brute-force.php:679
+msgid "Lockout Time"
+msgstr "Uitsluiting tijd"
+
+#: main/settings/brute-force.php:675
+msgid "Maximum failed attempts allowed before lockout"
+msgstr "Maximaal aantal mislukte pogingen toegestaan ​​vóór vergrendeling"
+
+#: main/settings/brute-force.php:647
+msgid "Remove From Logs"
+msgstr "Verwijderen uit logs"
+
+#: main/settings/brute-force.php:610
+msgid "No Logs. You will see logs about failed login attempts here."
+msgstr "Geen logs. Je ziet hier logs over mislukte inlogpogingen."
+
+#: main/settings/brute-force.php:602
+msgid "URL Attacked"
+msgstr "URL aangevallen"
+
+#: main/settings/brute-force.php:601
+msgid "Lockouts Count"
+msgstr "Uitsluiting aantal"
+
+#: main/settings/brute-force.php:600
+msgid "Failed Attempts Count"
+msgstr "Aantal mislukte pogingen"
+
+#: main/settings/brute-force.php:599
+msgid "Last Failed Attempt  (DD/MM/YYYY)"
+msgstr "Laatste mislukte poging (DD/MM/JJJJ)"
+
+#: main/settings/brute-force.php:598
+msgid "Attempted Username"
+msgstr "Geprobeerde gebruikersnaam"
+
+#: main/settings/brute-force.php:597
+msgid "IP"
+msgstr "IP"
+
+#: main/settings/brute-force.php:473
+msgid "Error messages were saved successfully"
+msgstr "Foutmeldingen zijn succesvol opgeslagen"
+
+#: main/settings/brute-force.php:323
+msgid "Whitelist IP range added successfully"
+msgstr "Toegestane lijst IP-bereik toegevoegd"
+
+#: main/settings/brute-force.php:285
+msgid "Blacklist IP range added successfully"
+msgstr "Blokkeer lijst IP-bereik succesvol toegevoegd"
+
+#: main/settings/2fa.php:224 main/settings/brute-force.php:1273
+msgid "The Start IP or End IP submitted conflicts with an existing IP range !"
+msgstr "Het ingediende start IP of eind IP adres is in strijd met een bestaand IP-bereik!"
+
+#: main/settings/2fa.php:209 main/settings/brute-force.php:1251
+msgid "The End IP cannot be smaller than the Start IP"
+msgstr "Het eind IP kan niet kleiner zijn dan het begin IP"
+
+#: main/settings/2fa.php:200 main/settings/brute-force.php:1242
+msgid "Please provide a valid end IP"
+msgstr "Geef een geldig eind IP op"
+
+#: main/settings/2fa.php:196 main/settings/brute-force.php:1238
+msgid "Please provide a valid start IP"
+msgstr "Geef een geldig start IP op"
+
+#: main/settings/2fa.php:186 main/settings/brute-force.php:1229
+msgid "Please enter the Start IP"
+msgstr "Voer het start IP in"
+
+#: main/settings/brute-force.php:232 main/settings/brute-force.php:416
+msgid "There are no IPs submitted"
+msgstr "Er zijn geen IP-adressen verzonden"
+
+#: main/settings/brute-force.php:216
+msgid "All the IP Logs have been cleared"
+msgstr "Alle IP-logs zijn gewist"
+
+#: main/settings/2fa.php:164 main/settings/brute-force.php:193
+msgid "The Whitelist IP range has been deleted successfully"
+msgstr "Het IP-bereik van de toegestane lijst is succesvol verwijderd"
+
+#: main/settings/brute-force.php:165
+msgid "The Blacklist IP range has been deleted successfully"
+msgstr "Het blokkeer lijst IP-bereik is succesvol verwijderd"
+
+#: main/settings/brute-force.php:51
+msgid "The Brute Force Protection feature is now enabled"
+msgstr "De functie Brute Force Protection is nu ingeschakeld"
+
+#: main/settings/brute-force.php:37
+msgid "The Brute Force Protection feature is now disabled"
+msgstr "De functie Brute Force Protection is nu uitgeschakeld"
+
+#: main/settings/dashboard.php:413
+msgid "Actual"
+msgstr "Werkelijk"
+
+#: main/settings/dashboard.php:412
+msgid "Suggested"
+msgstr "Gesuggereerd"
+
+#: main/settings/checksum.php:287 main/settings/checksum.php:344
+#: main/settings/dashboard.php:411
+msgid "Relative Path"
+msgstr "Relatief pad"
+
+#: main/settings/dashboard.php:398
+msgid "File Permissions"
+msgstr "Bestandsrechten"
+
+#: main/settings/dashboard.php:288
+msgid ".htaccess is writable"
+msgstr ".htaccess is beschrijfbaar"
+
+#: main/settings/dashboard.php:281
+msgid "wp-config.php is writable"
+msgstr "wp-config.php is beschrijfbaar"
+
+#: main/settings/dashboard.php:265
+msgid "Your IP Address"
+msgstr "Je IP-adres"
+
+#: main/settings/dashboard.php:261
+msgid "Server's IP Address"
+msgstr "IP-adres van de server"
+
+#: main/settings/dashboard.php:257
+msgid "Path"
+msgstr "Pad"
+
+#: main/settings/dashboard.php:253
+msgid "URL"
+msgstr "URL"
+
+#: main/settings/dashboard.php:246
+msgid "Loginizer Version"
+msgstr "Loginizer versie"
+
+#: main/settings/dashboard.php:235
+msgid "System Information"
+msgstr "Systeem informatie"
+
+#: main/settings/dashboard.php:119
+msgid "Getting Started"
+msgstr "Beginnen"
+
+#: main/settings/brute-force.php:148 main/settings/checksum.php:142
+#: main/settings/dashboard.php:105 main/settings/passwordless.php:68
+#: main/settings/recaptcha.php:274 main/settings/security.php:289
+#: main/settings/social_login.php:183
+msgid "The settings were saved successfully"
+msgstr "De instellingen zijn succesvol opgeslagen"
+
+#: main/admin.php:523
+msgid "Go Pro"
+msgstr "Ga voor Pro"
+
+#: main/admin.php:523
+msgid "Loginizer Go Pro"
+msgstr "Loginizer Go Pro"
+
+#: main/admin.php:516
+msgid "File Checksums"
+msgstr "Checksommen voor bestanden"
+
+#: main/admin.php:516
+msgid "Loginizer File Checksums"
+msgstr "Checksommen voor Loginizer bestand"
+
+#: main/admin.php:289 main/admin.php:312 main/admin.php:501
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: main/admin.php:490
+msgid "PasswordLess"
+msgstr "Wachtwoordloos"
+
+#: main/admin.php:487
+msgid "Brute Force"
+msgstr "Brute Force"
+
+#: main/admin.php:487 main/settings/brute-force.php:663
+msgid "Brute Force Settings"
+msgstr "Brute Force instellingen"
+
+#: main/admin.php:482
+msgid "Rename Login"
+msgstr "Naam login wijzigen"
+
+#: main/admin.php:482 main/admin.php:513
+msgid "Security Settings"
+msgstr "Veiligheidsinstellingen"
+
+#: main/admin.php:479
+msgid "Security"
+msgstr "Veiligheid"
+
+#: main/admin.php:474
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: main/admin.php:471
+msgid "Loginizer Security"
+msgstr "Loginizer beveiliging"
+
+#: main/admin.php:471 main/admin.php:474
+msgid "Loginizer Dashboard"
+msgstr "Loginizer dashboard"
+
+#: main/admin.php:58
+msgctxt "Plugin action link label."
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: main/settings/recaptcha.php:315
+msgid "Math Captcha"
+msgstr "Math Captcha"
+
+#: init.php:920
+msgid "You have exceeded maximum login retries<br /> Please try after"
+msgstr "Je hebt het maximale aantal keer opnieuw proberen in te loggen<br />Probeer het daarna"
+
+#: init.php:919
+msgid "attempt(s) left"
+msgstr "poging(en) over"
+
+#: init.php:917
+msgid "Incorrect Username or Password"
+msgstr "Foute gebruikersnaam of wachtwoord"
+
+#. Author URI of the plugin
+#: loginizer.php
+msgid "https://www.loginizer.com"
+msgstr "https://www.loginizer.com"
+
+#. Author of the plugin
+#: loginizer.php
+msgid "Softaculous"
+msgstr "Softaculous"
+
+#. Description of the plugin
+#: loginizer.php
+msgid "Loginizer is a WordPress plugin which helps you fight against bruteforce attack by blocking login for the IP after it reaches maximum retries allowed. You can blacklist or whitelist IPs for login using Loginizer."
+msgstr "Loginizer is een WordPress plugin die je helpt te vechten tegen bruteforce aanvallen door het inloggen voor het IP-adres te blokkeren nadat het maximale aantal toegestane pogingen is bereikt. Je kan IP's op de toegestane of blokkeer lijst zetten om in te loggen met Loginizer."
+
+#. Plugin URI of the plugin
+#: loginizer.php
+msgid "https://wordpress.org/extend/plugins/loginizer/"
+msgstr "https://wordpress.org/extend/plugins/loginizer/"
+
+#. Plugin Name of the plugin
+#: loginizer.php
+msgid "Loginizer"
+msgstr "Loginizer"
+
+#: main/admin.php:496
+msgid "Two Factor Auth"
+msgstr "Two Factor Auth"
+
+#: main/settings/2fa.php:175 main/settings/brute-force.php:205
+msgid "The Whitelist IP range(s) have been cleared successfully"
+msgstr "De IP-bereik(en) van de toegestane lijst zijn succesvol gewist"
+
+#: main/settings/brute-force.php:177
+msgid "The Blacklist IP range(s) have been cleared successfully"
+msgstr "De blokkeer lijst IP-bereik(en) zijn succesvol gewist"
+
+#: main/settings/brute-force.php:685
+msgid "Max Lockouts"
+msgstr "Max. uitsluitingen"
+
+#: main/settings/brute-force.php:673
+msgid "Max Retries"
+msgstr "Max. aantal nieuwe pogingen"
+
+#: main/settings/brute-force.php:705
+msgid "after "
+msgstr "na "
+
+#: main/settings/recaptcha.php:556
+msgid "Division (÷)"
+msgstr "Delen (÷)"
+
+#: main/settings/checksum.php:311
+msgid "This is great ! No file with any wrong checksum has been found."
+msgstr "Dit is geweldig ! Er is geen bestand met een verkeerde checksom gevonden."
+
+#: main/settings/checksum.php:253
+msgid "Do a Checksum Now"
+msgstr "Voer nu een checksom uit"
+
+#: main/settings/checksum.php:229
+msgid "If Checksum is enabled, what time of day should Loginizer do the check. Note : The check will be done on or after this time has elapsed as per the accesses being made."
+msgstr "Als checksom is ingeschakeld, op welk tijdstip van de dag moet Loginizer de controle uitvoeren. Opmerking:de controle wordt uitgevoerd op of nadat deze tijd is verstreken volgens de gemaakte toegangen."
+
+#: main/settings/checksum.php:214
+msgid "If Checksum is enabled, at what frequency should the checksums be performed."
+msgstr "Als Checksom is ingeschakeld, met welke frequentie moeten de checksommen worden uitgevoerd."
+
+#: main/settings/checksum.php:213
+msgid "Checksum Frequency"
+msgstr "Checksom frequentie"
+
+#: main/settings/checksum.php:205
+msgid "If checked, Loginizer will not email you the checksum results."
+msgstr "Indien aangevinkt, zal Loginizer je de checksom resultaten niet e-mailen."
+
+#: main/settings/checksum.php:204
+msgid "Disable Email of Checksum Results"
+msgstr "Schakel E-mail van checksom resultaten uit"
+
+#: main/settings/checksum.php:185
+msgid "Checksum Settings"
+msgstr "Checksom instellingen"
+
+#: main/settings/security.php:867
+msgid "Add New Domain"
+msgstr "Nieuw domein toevoegen"
+
+#: main/settings/security.php:770
+msgid "Attackers generally use common usernames like <b>admin, administrator, or variations of your domain name / business name</b>. You can specify such username here and Loginizer will auto-blacklist the IP Address(s) of clients who try to use such username(s)."
+msgstr "Aanvallers gebruiken over het algemeen gewone gebruikersnamen zoals <b>admin, administrator of varianten van je domeinnaam/bedrijfsnaam</b>. Je kan een dergelijke gebruikersnaam hier specificeren en Loginizer zal automatisch de IP-adres (sen) op de blokkeer lijst zetten van klanten die dergelijke gebruikersnaam (en) proberen te gebruiken."
+
+#: main/settings/security.php:760
+msgid "Username Auto Blacklist"
+msgstr "Gebruikersnaam Auto Blokkeer lijst"
+
+#: main/settings/security.php:735
+msgid "Note: Username can be changed only for administrator users."
+msgstr "Opmerking: De gebruikersnaam kan alleen worden gewijzigd voor beheerders."
+
+#: main/settings/security.php:582
+msgid "Test New WP-Admin Slug"
+msgstr "Test nieuwe WP-Beheer slug"
+
+#: main/settings/security.php:578
+msgid "You need to confirm that you have configured .htaccess as per <a href=\""
+msgstr "Je moet bevestigen dat je .htaccess hebt geconfigureerd volgens <a href=\""
+
+#: main/settings/security.php:565
+msgid "Error message to show if someone accesses wp-admin"
+msgstr "Foutbericht om aan te geven of iemand toegang heeft tot wp-admin"
+
+#: main/settings/security.php:564
+msgid "WP-Admin Error Message"
+msgstr "WP-Beheer foutbericht"
+
+#: main/admin.php:291 main/settings/security.php:414
+msgid "Disable XML-RPC"
+msgstr "XML-RPC uitschakelen"
+
+#: main/settings/security.php:352
+msgid "If set, then all Login URL's will still point to "
+msgstr "Indien ingesteld, zullen alle login URL's nog steeds verwijzen naar "
+
+#: main/settings/security.php:351
+msgid "Access Secretly Only"
+msgstr "Toegang alleen in het geheim"
+
+#: main/settings/security.php:337
+msgid "Set blank to reset to the original login URL"
+msgstr "Stel blanco in om de oorspronkelijke login URL te herstellen"
+
+#: main/settings/passwordless.php:117
+msgid "If enabled, the login screen will just ask for the username <b>OR</b> email address of the user. If such a user exists, an email with a <b>One Time Login </b> link will be sent to the email address of the user. The link will be valid for 10 minutes only."
+msgstr "Indien ingeschakeld, zal het inlogscherm alleen om het gebruikersnaam <b>OF</b> e-mailadres van de gebruiker vragen. Als een dergelijke gebruiker bestaat, wordt een e-mail met een <b>Eenmalige aanmelding</b> link naar het e-mailadres van de gebruiker gestuurd. De link is slechts 10 minuten geldig."
+
+#: main/settings/passwordless.php:110
+msgid "Enable PasswordLess Login"
+msgstr "Schakel wachtwoordloze login in"
+
+#: main/settings/2fa.php:328
+msgid "OTP via App"
+msgstr "OTP via App"
+
+#: main/settings/2fa.php:312
+msgid "Two Factor Authentication Settings"
+msgstr "Twee Factor authenticatie instellingen"
+
+#: main/settings/recaptcha.php:592
+msgid "WooCommerce Checkout"
+msgstr "WooCommerce Afrekenen"
+
+#: main/settings/recaptcha.php:564
+msgid "Show Captcha On"
+msgstr "Toon Captcha aan"
+
+#: main/settings/recaptcha.php:395
+msgid "Get the Site Key and Secret Key from <a href=\"https://www.google.com/recaptcha/admin/\" target=\"_blank\">Google</a>"
+msgstr "Haal de sitesleutel en geheime sleutel op van <a href=\"https://www.google.com/recaptcha/admin/\" target=\"_blank\">Google</a>"
+
+#: main/settings/recaptcha.php:324 main/settings/recaptcha.php:390
+#: main/settings/recaptcha.php:457
+msgid "Site Key"
+msgstr "Sitesleutel"
+
+#: main/settings/recaptcha.php:214
+msgid "The reCAPTCHA key is invalid"
+msgstr "De reCAPTCHA sleutel is ongeldig"
+
+#: main/settings/brute-force.php:980
+msgid "Delete All Whitelist IP Range(s)"
+msgstr "Alle IP-bereik (en) op de toegestane lijst verwijderen"
+
+#: main/settings/brute-force.php:980
+msgid "Are you sure you want to delete all Whitelist IP Range(s) ?"
+msgstr "Weet je zeker dat je alle IP-bereik (en) van de toegestane lijst wil verwijderen?"
+
+#: main/settings/brute-force.php:876
+msgid "Delete All Blacklist IP Range(s)"
+msgstr "Verwijder alle blokkeer lijst IP-bereik (en)"
+
+#: main/settings/brute-force.php:876
+msgid "Are you sure you want to delete all Blacklist IP Range(s) ?"
+msgstr "Weet je zeker dat je alle IP-bereik (en) van de blokkeer lijst wil verwijderen?"
+
+#: main/settings/brute-force.php:857
+msgid "Enter the IP you want to blacklist from login"
+msgstr "Voer het IP-adres in dat je bij de login op de blokkeerlijst wil zetten"
+
+#: main/settings/brute-force.php:649
+msgid "Clear All Logs"
+msgstr "Wis alle logs"
+
+#: main/settings/2fa.php:236 main/settings/brute-force.php:1285
+msgid "The End IP is present in an existing range!"
+msgstr "De eind IP is aanwezig in een bestaand bereik!"
+
+#: main/settings/2fa.php:230 main/settings/brute-force.php:1279
+msgid "The Start IP is present in an existing range !"
+msgstr "De Start IP is aanwezig in een bestaand bereik!"
+
+#: main/settings/brute-force.php:245
+msgid "The selected IP Logs have been reset"
+msgstr "De geselecteerde IP-logen zijn gereset"
+
+#: main/admin.php:436
+msgid "Review Loginizer"
+msgstr "Beoordeel Loginizer"
+
+#: init.php:918
+msgid "Your IP has been blacklisted"
+msgstr "Je IP staat op de blokkeerlijst"
+
+#: main/settings/checksum.php:147
+msgid "The Checksum process was executed successfully"
+msgstr "Het Checksom proces is succesvol uitgevoerd"
+
+#: main/settings/brute-force.php:703
+msgid "Email Notification"
+msgstr "E-mail notificatie"
+
+#: main/settings/security.php:556
+msgid "If set, then only the new admin slug will work and access to the Old Admin Slug i.e. wp-admin will be disabled. If anyone accesses wp-admin, a warning will be shown.<br><label>NOTE: Please use this option cautiously !</label>"
+msgstr "Indien ingesteld, werkt alleen de nieuwe beheerder slug en wordt de toegang tot de oude beheerder slug, d.w.z. wp-admin, uitgeschakeld. Als iemand wp-admin opent, wordt er een waarschuwing weergegeven. <br><label>OPMERKING: gebruik deze optie voorzichtig!</label>"
+
+#: main/settings/security.php:546
+msgid "New wp-admin Slug"
+msgstr "Nieuwe wp-admin slug"
+
+#: main/settings/security.php:501
+msgid "There was an error connecting to WordPress with the new Admin Slug. Did you configure everything properly ?"
+msgstr "Er is een fout opgetreden bij het verbinden met WordPress met de nieuwe beheerder slug. Heb je alles goed geconfigureerd?"
+
+#: main/settings/security.php:422
+msgid "Disable Pingbacks"
+msgstr "Pingbacks uitschakelen"
+
+#: main/settings/recaptcha.php:581 main/settings/social_login.php:412
+#: main/settings/social_login.php:420 main/settings/social_login.php:469
+msgid "Registration Form"
+msgstr "Registratieformulier"

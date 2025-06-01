@@ -1,0 +1,1164 @@
+{
+    "dup_type": "lite",
+    "created": "2025-04-11 11:47:06",
+    "version_dup": "1.5.12",
+    "version_wp": "6.7.2",
+    "version_db": "10.6.18",
+    "version_php": "8.3.11",
+    "version_os": "Linux",
+    "blogname": "Klei re",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$EOKGvXmsu6CsE31.nWhxq.dUruXO7FoBwHRblpfYfhauB8kjmPp9S",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "erie_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "www.kleire.be",
+            "path": "\/",
+            "blogname": "Klei re",
+            "blog_prefix": "erie_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "Eef",
+                    "id": "1"
+                },
+                {
+                    "ID": "10",
+                    "user_login": "wordprezz",
+                    "id": "10"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/www.kleire.be",
+            "fullSiteUrl": "https:\/\/www.kleire.be",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/www.kleire.be\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": null,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "latin1"
+        ],
+        "collationList": [
+            "latin1_swedish_ci",
+            "utf8mb4_general_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "u198960p376883_kleiredb",
+        "tablesBaseCount": 97,
+        "tablesFinalCount": 97,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 18961,
+        "tablesSizeOnDisk": 33030144,
+        "tablesList": {
+            "erie_actionscheduler_actions": {
+                "inaccurateRows": 402,
+                "insertedRows": 405,
+                "size": 327680
+            },
+            "erie_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "erie_actionscheduler_groups": {
+                "inaccurateRows": 4,
+                "insertedRows": 6,
+                "size": 32768
+            },
+            "erie_actionscheduler_logs": {
+                "inaccurateRows": 1053,
+                "insertedRows": 1213,
+                "size": 212992
+            },
+            "erie_cmplz_cookiebanners": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "erie_cmplz_cookies": {
+                "inaccurateRows": 90,
+                "insertedRows": 90,
+                "size": 16384
+            },
+            "erie_cmplz_dnsmpd": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "erie_cmplz_services": {
+                "inaccurateRows": 18,
+                "insertedRows": 18,
+                "size": 16384
+            },
+            "erie_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "erie_comments": {
+                "inaccurateRows": 18,
+                "insertedRows": 20,
+                "size": 114688
+            },
+            "erie_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "erie_fbv": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 32768
+            },
+            "erie_fbv_attachment_folder": {
+                "inaccurateRows": 435,
+                "insertedRows": 489,
+                "size": 16384
+            },
+            "erie_itsec_bans": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "erie_itsec_dashboard_events": {
+                "inaccurateRows": 6,
+                "insertedRows": 7,
+                "size": 32768
+            },
+            "erie_itsec_dashboard_lockouts": {
+                "inaccurateRows": 0,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "erie_itsec_distributed_storage": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 7372800
+            },
+            "erie_itsec_fingerprints": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "erie_itsec_firewall_rules": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "erie_itsec_geolocation_cache": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "erie_itsec_lockouts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "erie_itsec_logs": {
+                "inaccurateRows": 178,
+                "insertedRows": 952,
+                "size": 4849664
+            },
+            "erie_itsec_mutexes": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "erie_itsec_opaque_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "erie_itsec_temp": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 81920
+            },
+            "erie_itsec_user_groups": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 16384
+            },
+            "erie_itsec_vulnerabilities": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "erie_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "erie_loginizer_logs": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "erie_nf3_actions": {
+                "inaccurateRows": 15,
+                "insertedRows": 15,
+                "size": 16384
+            },
+            "erie_nf3_action_meta": {
+                "inaccurateRows": 297,
+                "insertedRows": 318,
+                "size": 147456
+            },
+            "erie_nf3_chunks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "erie_nf3_fields": {
+                "inaccurateRows": 18,
+                "insertedRows": 18,
+                "size": 16384
+            },
+            "erie_nf3_field_meta": {
+                "inaccurateRows": 678,
+                "insertedRows": 702,
+                "size": 131072
+            },
+            "erie_nf3_forms": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 16384
+            },
+            "erie_nf3_form_meta": {
+                "inaccurateRows": 265,
+                "insertedRows": 267,
+                "size": 49152
+            },
+            "erie_nf3_objects": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "erie_nf3_object_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "erie_nf3_relationships": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "erie_nf3_upgrades": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 131072
+            },
+            "erie_options": {
+                "inaccurateRows": 1260,
+                "insertedRows": 1206,
+                "size": 4423680
+            },
+            "erie_postmeta": {
+                "inaccurateRows": 10388,
+                "insertedRows": 7757,
+                "size": 6078464
+            },
+            "erie_posts": {
+                "inaccurateRows": 868,
+                "insertedRows": 996,
+                "size": 3473408
+            },
+            "erie_smush_dir_images": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "erie_termmeta": {
+                "inaccurateRows": 43,
+                "insertedRows": 41,
+                "size": 49152
+            },
+            "erie_terms": {
+                "inaccurateRows": 54,
+                "insertedRows": 52,
+                "size": 49152
+            },
+            "erie_term_relationships": {
+                "inaccurateRows": 1294,
+                "insertedRows": 1487,
+                "size": 147456
+            },
+            "erie_term_taxonomy": {
+                "inaccurateRows": 53,
+                "insertedRows": 52,
+                "size": 49152
+            },
+            "erie_usermeta": {
+                "inaccurateRows": 179,
+                "insertedRows": 178,
+                "size": 114688
+            },
+            "erie_users": {
+                "inaccurateRows": 4,
+                "insertedRows": 3,
+                "size": 65536
+            },
+            "erie_wc_admin_notes": {
+                "inaccurateRows": 61,
+                "insertedRows": 69,
+                "size": 65536
+            },
+            "erie_wc_admin_note_actions": {
+                "inaccurateRows": 97,
+                "insertedRows": 97,
+                "size": 81920
+            },
+            "erie_wc_category_lookup": {
+                "inaccurateRows": 18,
+                "insertedRows": 18,
+                "size": 16384
+            },
+            "erie_wc_customer_lookup": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "erie_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "erie_wc_orders": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 131072
+            },
+            "erie_wc_orders_meta": {
+                "inaccurateRows": 14,
+                "insertedRows": 14,
+                "size": 49152
+            },
+            "erie_wc_order_addresses": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 81920
+            },
+            "erie_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "erie_wc_order_operational_data": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "erie_wc_order_product_lookup": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 81920
+            },
+            "erie_wc_order_stats": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 65536
+            },
+            "erie_wc_order_tax_lookup": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "erie_wc_product_attributes_lookup": {
+                "inaccurateRows": 682,
+                "insertedRows": 682,
+                "size": 114688
+            },
+            "erie_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "erie_wc_product_meta_lookup": {
+                "inaccurateRows": 146,
+                "insertedRows": 155,
+                "size": 131072
+            },
+            "erie_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "erie_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "erie_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "erie_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "erie_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "erie_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 32768
+            },
+            "erie_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "erie_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "erie_woocommerce_order_itemmeta": {
+                "inaccurateRows": 42,
+                "insertedRows": 42,
+                "size": 49152
+            },
+            "erie_woocommerce_order_items": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 32768
+            },
+            "erie_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "erie_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "erie_woocommerce_sessions": {
+                "inaccurateRows": 19,
+                "insertedRows": 21,
+                "size": 114688
+            },
+            "erie_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "erie_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "erie_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 16384
+            },
+            "erie_woocommerce_tax_rates": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 81920
+            },
+            "erie_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "inaccurateRows": 161,
+                "insertedRows": 164,
+                "size": 1622016
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 9,
+                "insertedRows": 9,
+                "size": 49152
+            },
+            "wp_posts": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 81920
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 19,
+                "insertedRows": 19,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.6.18",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 4,
+        "packageName": "kleire11_4_25",
+        "packageHash": "7f847d3-11114706",
+        "secondaryHash": "101376e-11114706"
+    },
+    "fileInfo": {
+        "dirCount": 3179,
+        "fileCount": 22870,
+        "size": 331430479
+    },
+    "wpInfo": {
+        "version": "6.7.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/u198960p376883\/domains\/kleire.be\/public_html",
+        "targetPaths": [
+            "\/home\/u198960p376883\/domains\/kleire.be\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "Eef",
+                "id": "1"
+            },
+            {
+                "ID": "10",
+                "user_login": "wordprezz",
+                "id": "10"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "latin1",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "f:)Op8gr+)D+Pl]!a&u,R0R@@FG :_(wip[)e)k{<sO(j0JvE=m{}rp27C_OEw&E",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "ij^Fp)~xVG2>jxY&XH^P7%)kdG.C7U7Y @4-`}=RohtCSMWn97X%7@N%Ozh,a_Nm",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "fG8dW%BbBa.{RL.)sj#I?buu3tjbWI<E98x$ZbtRNX\/<+)0W m@bv1[v_mYU}uu6",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "*BRCB2t&A$g{}av}FRxs141UOuVrP6bC##lhO$~# Q3J[dL@OB^Sc&O.;B*n2dt$",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "+^POxOIOyj{\/zu@fI[,\/-],%1e0r+ql=K>0kQN@ia`^%1&-m>F9$,*YIj:%5_C1n",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "i]4][rJpUS)WYLuBeg]iHzjZOw=^nNLfIfwQpc7DR08&<zEp>xlH)ll&Y91 [{ir",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "!GJ63bMoinE_BX^p(.4d=yumbt\/@?D)PV2+C%$e[\/lovyP:eetWpNLr ]}sc5%IA",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "+?y~R`)1O\/KFb}Bj 4>V7Ij&0BdAS;9b$9j6tXuTeM57J-#jE}\/$F&x5XC4D[8S3",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/www.kleire.be\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/www.kleire.be\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": "",
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 493,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/themes\/kleire-child-thema",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "DISALLOW_FILE_EDIT": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/www.kleire.be\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/www.kleire.be",
+                "homeUrl": "https:\/\/www.kleire.be",
+                "loginUrl": "https:\/\/www.kleire.be\/startpagina\/",
+                "contentUrl": "https:\/\/www.kleire.be\/wp-content",
+                "uploadBaseUrl": "http:\/\/www.kleire.be\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/www.kleire.be\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/www.kleire.be\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/www.kleire.be\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/u198960p376883\/domains\/kleire.be\/public_html",
+                    "abs": "\/home\/u198960p376883\/domains\/kleire.be\/public_html",
+                    "wpconfig": "\/home\/u198960p376883\/domains\/kleire.be\/public_html",
+                    "wpcontent": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content",
+                    "uploads": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/u198960p376883\/domains\/kleire.be\/public_html",
+                    "abs": "\/home\/u198960p376883\/domains\/kleire.be\/public_html",
+                    "wpconfig": "\/home\/u198960p376883\/domains\/kleire.be\/public_html",
+                    "wpcontent": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content",
+                    "uploads": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/u198960p376883\/domains\/kleire.be\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "complianz-gdpr\/complianz-gpdr.php": {
+                "slug": "complianz-gdpr\/complianz-gpdr.php",
+                "name": "Complianz | GDPR\/CCPA Cookie Consent",
+                "version": "7.4.0",
+                "pluginURI": "https:\/\/www.wordpress.org\/plugins\/complianz-gdpr",
+                "author": "Really Simple Plugins",
+                "authorURI": "https:\/\/www.complianz.io",
+                "description": "Complianz Privacy Suite for GDPR, CaCPA, DSVGO, AVG with a conditional cookie warning and customized cookie policy",
+                "title": "Complianz | GDPR\/CCPA Cookie Consent",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.12",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "enable-media-replace\/enable-media-replace.php": {
+                "slug": "enable-media-replace\/enable-media-replace.php",
+                "name": "Enable Media Replace",
+                "version": "4.1.6",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/enable-media-replace\/",
+                "author": "ShortPixel",
+                "authorURI": "https:\/\/shortpixel.com",
+                "description": "Enable replacing media files by uploading a new file in the \"Edit Media\" section of the WordPress Media Library.",
+                "title": "Enable Media Replace",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "filebird\/filebird.php": {
+                "slug": "filebird\/filebird.php",
+                "name": "FileBird Lite",
+                "version": "6.4.7",
+                "pluginURI": "https:\/\/ninjateam.org\/wordpress-media-library-folders\/",
+                "author": "Ninja Team",
+                "authorURI": "https:\/\/ninjateam.org",
+                "description": "Organize thousands of WordPress media files into folders\/ categories at ease.",
+                "title": "FileBird Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "if-menu\/if-menu.php": {
+                "slug": "if-menu\/if-menu.php",
+                "name": "If Menu - Visibility control for menus",
+                "version": "0.19.2",
+                "pluginURI": "https:\/\/layered.store\/plugins\/if-menu",
+                "author": "Layered",
+                "authorURI": "https:\/\/layered.store",
+                "description": "Display tailored menu items to each visitor with visibility rules",
+                "title": "If Menu - Visibility control for menus",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "imsanity\/imsanity.php": {
+                "slug": "imsanity\/imsanity.php",
+                "name": "Imsanity",
+                "version": "2.8.6",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/imsanity\/",
+                "author": "Exactly WWW",
+                "authorURI": "https:\/\/ewww.io\/about\/",
+                "description": "Imsanity stops insanely huge image uploads",
+                "title": "Imsanity",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "loginizer\/loginizer.php": {
+                "slug": "loginizer\/loginizer.php",
+                "name": "Loginizer",
+                "version": "1.9.9",
+                "pluginURI": "https:\/\/wordpress.org\/extend\/plugins\/loginizer\/",
+                "author": "Softaculous",
+                "authorURI": "https:\/\/www.loginizer.com",
+                "description": "Loginizer is a WordPress plugin which helps you fight against bruteforce attack by blocking login for the IP after it reaches maximum retries allowed. You can blacklist or whitelist IPs for login using Loginizer.",
+                "title": "Loginizer",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "megamenu\/megamenu.php": {
+                "slug": "megamenu\/megamenu.php",
+                "name": "Max Mega Menu",
+                "version": "3.5",
+                "pluginURI": "https:\/\/www.megamenu.com",
+                "author": "megamenu.com",
+                "authorURI": "https:\/\/www.megamenu.com",
+                "description": "An easy to use mega menu plugin. Written the WordPress way.",
+                "title": "Max Mega Menu",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-nested-pages\/nestedpages.php": {
+                "slug": "wp-nested-pages\/nestedpages.php",
+                "name": "Nested Pages",
+                "version": "3.2.13",
+                "pluginURI": "http:\/\/nestedpages.com",
+                "author": "Kyle Phillips",
+                "authorURI": "https:\/\/github.com\/kylephillips",
+                "description": "Provides an intuitive drag and drop interface for managing pages in the Wordpress admin, while enhancing quick edit. Includes an auto-generated menu to match the nested interface, support for all post types and more.",
+                "title": "Nested Pages",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "ninja-forms\/ninja-forms.php": {
+                "slug": "ninja-forms\/ninja-forms.php",
+                "name": "Ninja Forms",
+                "version": "3.10.0",
+                "pluginURI": "http:\/\/ninjaforms.com\/?utm_source=WordPress&utm_medium=readme",
+                "author": "Saturday Drive",
+                "authorURI": "http:\/\/ninjaforms.com\/?utm_source=Ninja+Forms+Plugin&utm_medium=Plugins+WP+Dashboard",
+                "description": "Ninja Forms is a webform builder with unparalleled ease of use and features.",
+                "title": "Ninja Forms",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "so-css\/so-css.php": {
+                "slug": "so-css\/so-css.php",
+                "name": "SiteOrigin CSS",
+                "version": "1.6.3",
+                "pluginURI": "https:\/\/siteorigin.com\/css\/",
+                "author": "SiteOrigin",
+                "authorURI": "https:\/\/siteorigin.com",
+                "description": "An advanced CSS editor from SiteOrigin.",
+                "title": "SiteOrigin CSS",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-smushit\/wp-smush.php": {
+                "slug": "wp-smushit\/wp-smush.php",
+                "name": "Smush",
+                "version": "3.18.0",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/wp-smushit\/",
+                "author": "WPMU DEV",
+                "authorURI": "https:\/\/profiles.wordpress.org\/wpmudev\/",
+                "description": "Reduce image file sizes, improve performance and boost your SEO using the free <a href=\"https:\/\/wpmudev.com\/\">WPMU DEV<\/a> WordPress Smush API.",
+                "title": "Smush",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "better-wp-security\/better-wp-security.php": {
+                "slug": "better-wp-security\/better-wp-security.php",
+                "name": "Solid Security Basic",
+                "version": "9.3.7",
+                "pluginURI": "https:\/\/solidwp.com\/products\/security",
+                "author": "SolidWP",
+                "authorURI": "https:\/\/solidwp.com",
+                "description": "Shield your site from cyberattacks and prevent security vulnerabilities. The only security plugin you need for a solid foundation.",
+                "title": "Solid Security Basic",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "ultimate-addons-for-gutenberg\/ultimate-addons-for-gutenberg.php": {
+                "slug": "ultimate-addons-for-gutenberg\/ultimate-addons-for-gutenberg.php",
+                "name": "Spectra",
+                "version": "2.19.6",
+                "pluginURI": "https:\/\/www.brainstormforce.com",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/www.brainstormforce.com",
+                "description": "The Spectra extends the Gutenberg functionality with several unique and feature-rich blocks that help build websites faster.",
+                "title": "Spectra",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "updraftplus\/updraftplus.php": {
+                "slug": "updraftplus\/updraftplus.php",
+                "name": "UpdraftPlus - Backup\/Restore",
+                "version": "1.25.3",
+                "pluginURI": "https:\/\/updraftplus.com",
+                "author": "TeamUpdraft, DavidAnderson",
+                "authorURI": "https:\/\/updraftplus.com",
+                "description": "Backup and restore: take backups locally, or backup to Amazon S3, Dropbox, Google Drive, Rackspace, (S)FTP, WebDAV & email, on automatic schedules.",
+                "title": "UpdraftPlus - Backup\/Restore",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "white-label-cms\/wlcms-plugin.php": {
+                "slug": "white-label-cms\/wlcms-plugin.php",
+                "name": "White Label CMS",
+                "version": "2.7.7",
+                "pluginURI": "https:\/\/www.videousermanuals.com\/white-label-cms\/?utm_campaign=wlcms&utm_medium=plugin&utm_source=readme-txt",
+                "author": "www.videousermanuals.com",
+                "authorURI": "https:\/\/www.videousermanuals.com\/?utm_campaign=wlcms&utm_medium=plugin&utm_source=readme-txt",
+                "description": "A plugin that allows you to brand WordPress CMS as your own",
+                "title": "White Label CMS",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "9.8.1",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An ecommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woo-update-manager\/woo-update-manager.php": {
+                "slug": "woo-update-manager\/woo-update-manager.php",
+                "name": "WooCommerce.com Update Manager",
+                "version": "1.0.3",
+                "pluginURI": "",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com\/",
+                "description": "Receive updates and streamlined support included in your Woo.com subscriptions.",
+                "title": "WooCommerce.com Update Manager",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wps-hide-login\/wps-hide-login.php": {
+                "slug": "wps-hide-login\/wps-hide-login.php",
+                "name": "WPS Hide Login",
+                "version": "1.9.17.2",
+                "pluginURI": "",
+                "author": "WPServeur, NicolasKulka, wpformation",
+                "authorURI": "https:\/\/wpserveur.net",
+                "description": "Protect your website by changing the login URL and preventing access to wp-login.php page and wp-admin directory while not logged-in",
+                "title": "WPS Hide Login",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "astra": {
+                "slug": "astra",
+                "themeName": "Astra",
+                "version": "4.9.2",
+                "themeURI": "https:\/\/wpastra.com\/",
+                "parentTheme": false,
+                "template": "astra",
+                "stylesheet": "astra",
+                "description": "The Astra WordPress theme is lightning-fast and highly customizable. It has over 1 million downloads and the only theme in the world with 5,700+ five-star reviews! It\u2019s ideal for professional web designers, solopreneurs, small businesses, eCommerce, membership sites and any type of website. It offers special features and templates so it works perfectly with all page builders like Spectra, Elementor, Beaver Builder, etc. Fast performance, clean code, mobile-first design and schema markup are all built-in, making the theme exceptionally SEO-friendly. It\u2019s fully compatible with WooCommerce, SureCart and other eCommerce plugins and comes with lots of store-friendly features and templates. Astra also provides expert support for free users. A dedicated team of fully trained WordPress experts are on hand to help with every aspect of the theme. Try the live demo of Astra: https:\/\/zipwp.org\/themes\/astra\/",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/wpastra.com\/about\/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme",
+                "tags": [
+                    "custom-menu",
+                    "custom-logo",
+                    "entertainment",
+                    "one-column",
+                    "two-columns",
+                    "left-sidebar",
+                    "e-commerce",
+                    "right-sidebar",
+                    "custom-colors",
+                    "editor-style",
+                    "featured-images",
+                    "full-width-template",
+                    "microformats",
+                    "post-formats",
+                    "rtl-language-support",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "blog"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "kleire-child-thema": {
+                "slug": "kleire-child-thema",
+                "themeName": "Klei re Child",
+                "version": "1.0.0",
+                "themeURI": "https:\/\/Kleire.be\/",
+                "parentTheme": "astra",
+                "template": "astra",
+                "stylesheet": "kleire-child-thema",
+                "description": "Child theme voor Astra",
+                "author": "Klei're",
+                "authorURI": "https:\/\/Kleire.be\/",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Klei re"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "kleire11_4_25_7f847d321d6938f55833_20250411114706_installer-backup.php",
+    "package_name": "kleire11_4_25_7f847d321d6938f55833_20250411114706_archive.zip",
+    "package_hash": "7f847d3-11114706",
+    "package_notes": ""
+}

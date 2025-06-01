@@ -1,0 +1,706 @@
+# Translation of Plugins - SiteOrigin CSS - Stable (latest release) in Dutch (Belgium)
+# This file is distributed under the same license as the Plugins - SiteOrigin CSS - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-02-08 03:04:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl_BE\n"
+"Project-Id-Version: Plugins - SiteOrigin CSS - Stable (latest release)\n"
+
+#: tpl/page.php:105
+msgid "Dedicated CSS File offers best performance, Internal CSS embeds styles in page HTML."
+msgstr "Toegewijd CSS bestand biedt de beste prestaties, interne CSS sluit stijlen in op de HTML pagina."
+
+#: tpl/page.php:99
+msgid "Dedicated File"
+msgstr "Toegewijd bestand"
+
+#: tpl/page.php:89
+msgid "CSS Output Location"
+msgstr "CSS uitvoerlocatie"
+
+#: inc/controller-config.php:246
+msgid "fixed"
+msgstr "vast"
+
+#: inc/controller-config.php:245
+msgid "scroll"
+msgstr "scroll"
+
+#: inc/controller-config.php:240
+msgid "Background Attachment"
+msgstr "Achtergrond bijlage"
+
+#: tpl/page.php:165
+msgid "Enable SiteOrigin Installer: "
+msgstr "SiteOrigin installer inschakelen: "
+
+#: tpl/page.php:160
+msgid "Other Settings"
+msgstr "Andere instellingen"
+
+#: inc/installer/tpl/admin.php:113
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: inc/installer/tpl/admin.php:107
+msgid "Demo"
+msgstr "Demo"
+
+#: inc/installer/tpl/admin.php:94
+msgid "Update"
+msgstr "Bijwerken"
+
+#: inc/installer/tpl/admin.php:86
+msgid "Install"
+msgstr "Installeren"
+
+#: inc/installer/tpl/admin.php:81
+msgid "Get SiteOrigin Premium"
+msgstr "Neem SiteOrigin premium"
+
+#: inc/installer/tpl/admin.php:46 inc/installer/tpl/admin.php:59
+msgid "Theme"
+msgstr "Thema"
+
+#: inc/installer/tpl/admin.php:46 inc/installer/tpl/admin.php:57
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/installer/tpl/admin.php:45
+msgid "Required %s"
+msgstr "Vereist %s"
+
+#: inc/installer/tpl/admin.php:11
+msgid "All"
+msgstr "Alle"
+
+#: inc/installer/tpl/admin.php:10
+msgid "Themes"
+msgstr "Thema's"
+
+#: inc/installer/tpl/admin.php:9
+msgid "Plugins"
+msgstr "Plugins"
+
+#: inc/installer/tpl/admin.php:5
+msgid "SiteOrigin Installer"
+msgstr "SiteOrigin Installer"
+
+#: inc/installer/inc/admin.php:133 inc/installer/tpl/admin.php:88
+msgid "Activate"
+msgstr "Activeren"
+
+#: inc/installer/inc/admin.php:98 inc/installer/inc/admin.php:99
+msgid "Installer"
+msgstr "Installer"
+
+#: inc/installer/inc/admin.php:50
+msgid "Click here"
+msgstr "Klik hier"
+
+#: inc/installer/inc/admin.php:49
+msgid "%s to install recommended SiteOrigin plugins and a SiteOrigin theme to get your site going."
+msgstr "%s om aanbevolen SiteOrigin plugins en een SiteOrigin thema te installeren om je website op gang te krijgen."
+
+#: tpl/page.php:80
+msgid "Dark"
+msgstr "Donker"
+
+#: tpl/page.php:79
+msgid "Light"
+msgstr "Licht"
+
+#: tpl/page.php:76
+msgid "Editor Theme"
+msgstr "Editor thema"
+
+#: tpl/page.php:188
+msgid "Close"
+msgstr "Sluiten"
+
+#: tpl/page.php:131
+msgid "Open Visual Mode"
+msgstr "Visuele modus openen"
+
+#: tpl/page.php:128
+msgid "Close Expanded Mode"
+msgstr "Uitgebreide modus sluiten"
+
+#: tpl/page.php:126 tpl/page.php:127
+msgid "Open Expanded Mode"
+msgstr "Uitgebreide modus openen"
+
+#: so-css.php:595
+msgid "Addons"
+msgstr "Add-ons"
+
+#: inc/controller-config.php:316
+msgid "Border Radius"
+msgstr "Rand radius"
+
+#: so-css.php:795
+msgid "No revisions yet."
+msgstr "Nog geen herzieningen."
+
+#: so-css.php:642
+msgid "Revert to this revision"
+msgstr "Terug naar deze revisie"
+
+#: so-css.php:629
+msgid "Save %s CSS"
+msgstr "%s CSS opslaan"
+
+#: so-css.php:622
+msgid "Changes apply to the %s %s when the current theme is %s or its child themes"
+msgstr "Wijzigingen zijn van toepassing op de %s %s wanneer het huidige thema %s of de subthema's is"
+
+#: so-css.php:617
+msgid "Editing CSS for: %s"
+msgstr "CSS bewerken voor: %s"
+
+#: tpl/page.php:33
+msgid "Editing revision dated %s. Click %sRevert to this revision%s to keep using it."
+msgstr "Bewerkingsrevisie gedateerd %s. Klik op %sTerugzetten naar deze revisie%s om deze te blijven gebruiken."
+
+#: tpl/js-templates.php:69
+msgid "Get a %sGoogle Font%s selector."
+msgstr "Download een kiezer voor %sGoogle Font%s."
+
+#: so-css.php:789
+msgid "Latest"
+msgstr "Laatste"
+
+#: so-css.php:698 so-css.php:719 so-css.php:738
+msgid "Invalid nonce."
+msgstr "Ongeldige nonce."
+
+#: so-css.php:697 so-css.php:718 so-css.php:737
+msgid "The supplied nonce is invalid."
+msgstr "De meegeleverde nonce is ongeldig."
+
+#: tpl/page.php:49
+msgid "%sSiteOrigin Premium%s adds a <strong>Google Web Font</strong> selector to SiteOrigin CSS so you can easily change any font."
+msgstr "%sSiteOrigin Premium%s voegt een <strong>Google Web Font kiezer</strong> toe aan SiteOrigin CSS, zodat je eenvoudig elk lettertype wijzigen."
+
+#: tpl/page.php:47
+msgid "Get The Full Experience"
+msgstr "Krijg de volledige ervaring"
+
+#: tpl/js-templates.php:59
+msgid "Invalid URI. Please make sure you're using a URL from the same site."
+msgstr "Ongeldige URI. Zorg ervoor dat je een URL van dezelfde website gebruikt."
+
+#. Author URI of the plugin
+#: so-css.php
+msgid "https://siteorigin.com"
+msgstr "https://siteorigin.com"
+
+#. Author of the plugin
+#: so-css.php inc/installer/inc/admin.php:86 inc/installer/inc/admin.php:87
+msgid "SiteOrigin"
+msgstr "SiteOrigin"
+
+#. Description of the plugin
+#: so-css.php
+msgid "An advanced CSS editor from SiteOrigin."
+msgstr "Een geavanceerde CSS editor van SiteOrigin."
+
+#. Plugin URI of the plugin
+#: so-css.php
+msgid "https://siteorigin.com/css/"
+msgstr "https://siteorigin.com/css/"
+
+#: so-css.php:610 tpl/page.php:135 tpl/page.php:191
+msgid "Save CSS"
+msgstr "CSS opslaan"
+
+#: so-css.php:789
+msgid "%d chars"
+msgstr "%d karakters"
+
+#: tpl/page.php:69
+msgid "Are you sure you want to load this revision?"
+msgstr "Weet je zeker dat je deze revisie wilt laden?"
+
+#: tpl/page.php:67
+msgid "CSS Revisions"
+msgstr "CSS revisies"
+
+#: tpl/page.php:58
+msgid "Dismiss"
+msgstr "Negeren"
+
+#: tpl/page.php:57
+msgid "Getting Started Video"
+msgstr "Aan de slag video"
+
+#: tpl/page.php:28
+msgid "Site design updated."
+msgstr "Website ontwerp bijgewerkt."
+
+#. Plugin Name of the plugin
+#: so-css.php so-css.php:606
+msgid "SiteOrigin CSS"
+msgstr "SiteOrigin CSS"
+
+#: tpl/js-templates.php:26
+msgid "Insert Snippet"
+msgstr "Snippet invoegen"
+
+#: tpl/js-templates.php:14
+msgid "Search Snippets"
+msgstr "Zoek snippets"
+
+#: tpl/js-templates.php:8
+msgid "CSS Snippets"
+msgstr "CSS fragmenten"
+
+#: tpl/inspector-templates.php:4
+msgid "Navigate To: "
+msgstr "Navigeren naar: "
+
+#: so-css.php:609
+msgid "Changes apply to %s and its child themes"
+msgstr "Wijzigingen zijn van toepassing op %s en subthema's"
+
+#: so-css.php:592
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: so-css.php:591
+msgid "CSS Editor"
+msgstr "CSS editor"
+
+#: so-css.php:525
+msgid "Are you sure you want to leave without saving?"
+msgstr "Weet je zeker dat je wilt stoppen zonder te bewaren?"
+
+#: so-css.php:524
+msgid "Select Image"
+msgstr "Afbeelding selecteren"
+
+#: so-css.php:523
+msgid "Select"
+msgstr "Selecteer"
+
+#: so-css.php:522
+msgid "Unchanged"
+msgstr "Ongewijzigd"
+
+#: so-css.php:456
+msgid "These changes will persist across updates so it's best to make all your changes here. "
+msgstr "Deze wijzigingen blijven bestaan bij updates, dus het is het beste om al je wijzigingen hier aan te brengen. "
+
+#: so-css.php:455
+msgid "SiteOrigin CSS adds any custom CSS you enter here into your site's header. "
+msgstr "SiteOrigin CSS voegt alle aangepaste CSS toe die je hier invoert in de header van je website. "
+
+#: so-css.php:392 so-css.php:393 so-css.php:453
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: inc/controller-config.php:526
+msgid "Z-Index"
+msgstr "Z-Index"
+
+#: inc/controller-config.php:513
+msgid "Overflow Y"
+msgstr "Overloop Y"
+
+#: inc/controller-config.php:500
+msgid "Overflow X"
+msgstr "Overloop X"
+
+#: inc/controller-config.php:495 inc/controller-config.php:508
+#: inc/controller-config.php:521
+msgid "Auto"
+msgstr "Automatisch"
+
+#: inc/controller-config.php:494 inc/controller-config.php:507
+#: inc/controller-config.php:520
+msgid "Scroll"
+msgstr "Scroll"
+
+#: inc/controller-config.php:487
+msgid "Overflow"
+msgstr "Overflow"
+
+#: inc/controller-config.php:482
+msgid "Collapse"
+msgstr "Invouwen"
+
+#: inc/controller-config.php:481 inc/controller-config.php:493
+#: inc/controller-config.php:506 inc/controller-config.php:519
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: inc/controller-config.php:480 inc/controller-config.php:492
+#: inc/controller-config.php:505 inc/controller-config.php:518
+msgid "Visible"
+msgstr "Zichtbaar"
+
+#: inc/controller-config.php:475
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: inc/controller-config.php:470
+msgid "Both"
+msgstr "Beide"
+
+#: inc/controller-config.php:462
+msgid "Clear"
+msgstr "Leeg maken"
+
+#: inc/controller-config.php:450
+msgid "Float"
+msgstr "Float"
+
+#: inc/controller-config.php:445
+msgid "Table Row"
+msgstr "Tabel rij"
+
+#: inc/controller-config.php:444
+msgid "Table Column"
+msgstr "Tabel kolom"
+
+#: inc/controller-config.php:443
+msgid "Table Cell"
+msgstr "Tabel cel"
+
+#: inc/controller-config.php:442
+msgid "Table Row Group"
+msgstr "Tabel rij groep"
+
+#: inc/controller-config.php:441
+msgid "Table Footer Group"
+msgstr "Tabel footer groep"
+
+#: inc/controller-config.php:440
+msgid "Table Header Group"
+msgstr "Tabel header groep"
+
+#: inc/controller-config.php:439
+msgid "Table Column Group"
+msgstr "Tabel kolomgroep"
+
+#: inc/controller-config.php:438
+msgid "Table Caption"
+msgstr "Tabel onderschrift"
+
+#: inc/controller-config.php:437
+msgid "Table"
+msgstr "Tabel"
+
+#: inc/controller-config.php:436
+msgid "Run In"
+msgstr "Uitvoeren in"
+
+#: inc/controller-config.php:435
+msgid "List Item"
+msgstr "Lijst item"
+
+#: inc/controller-config.php:434
+msgid "Inline Table"
+msgstr "Inline tabel"
+
+#: inc/controller-config.php:433
+msgid "Inline Flex"
+msgstr "Inline flex"
+
+#: inc/controller-config.php:432
+msgid "Inline Block"
+msgstr "Inline blok"
+
+#: inc/controller-config.php:431
+msgid "Flex"
+msgstr "Flex"
+
+#: inc/controller-config.php:430
+msgid "Block"
+msgstr "Blok"
+
+#: inc/controller-config.php:429 tpl/page.php:100
+msgid "Inline"
+msgstr "Inline"
+
+#: inc/controller-config.php:423
+msgid "Display"
+msgstr "Weergave"
+
+#: inc/controller-config.php:415
+msgid "Height"
+msgstr "Hoogte"
+
+#: inc/controller-config.php:407
+msgid "Width"
+msgstr "Breedte"
+
+#: inc/controller-config.php:391
+msgid "Absolute Position"
+msgstr "Absolute positie"
+
+#: inc/controller-config.php:386
+msgid "Inherit"
+msgstr "Overnemen"
+
+#: inc/controller-config.php:385
+msgid "Static"
+msgstr "Statisch"
+
+#: inc/controller-config.php:384
+msgid "Relative"
+msgstr "Relatief"
+
+#: inc/controller-config.php:383
+msgid "Fixed"
+msgstr "Vast"
+
+#: inc/controller-config.php:382
+msgid "Absolute"
+msgstr "Absoluut"
+
+#: inc/controller-config.php:377
+msgid "Position"
+msgstr "Positie"
+
+#: inc/controller-config.php:360
+msgid "Padding"
+msgstr "Padding"
+
+#: inc/controller-config.php:343
+msgid "Margin"
+msgstr "Margin"
+
+#: inc/controller-config.php:339
+msgid "Layout"
+msgstr "Lay-out"
+
+#: inc/controller-config.php:273
+msgid "Borders"
+msgstr "Randen"
+
+#: inc/controller-config.php:260
+msgid "Opacity"
+msgstr "Doorzichtigheid"
+
+#: inc/controller-config.php:252
+msgid "Box Shadow"
+msgstr "Vak schaduw"
+
+#: inc/controller-config.php:234
+msgid "contain"
+msgstr "bevat"
+
+#: inc/controller-config.php:233
+msgid "cover"
+msgstr "cover"
+
+#: inc/controller-config.php:232
+msgid "percentage"
+msgstr "percentage"
+
+#: inc/controller-config.php:231
+msgid "length"
+msgstr "lengte"
+
+#: inc/controller-config.php:230
+msgid "auto"
+msgstr "automatisch"
+
+#: inc/controller-config.php:225
+msgid "Background Size"
+msgstr "Achtergrondgrootte"
+
+#: inc/controller-config.php:219
+msgid "no-repeat"
+msgstr "niet herhalen"
+
+#: inc/controller-config.php:218
+msgid "repeat-y"
+msgstr "herhaal Y"
+
+#: inc/controller-config.php:217
+msgid "repeat-x"
+msgstr "herhaal X"
+
+#: inc/controller-config.php:216
+msgid "repeat"
+msgstr "herhaal"
+
+#: inc/controller-config.php:211
+msgid "Background Repeat"
+msgstr "Achtergrond herhalen"
+
+#: inc/controller-config.php:204
+msgid "Background Position"
+msgstr "Achtergrond positie"
+
+#: inc/controller-config.php:196
+msgid "Background Image"
+msgstr "Achtergrondafbeelding"
+
+#: inc/controller-config.php:189
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: inc/controller-config.php:185
+msgid "Decoration"
+msgstr "Decoratie"
+
+#: inc/controller-config.php:173
+msgid "Text Shadow"
+msgstr "Tekst schaduw"
+
+#: inc/controller-config.php:168
+msgid "Pre Wrap"
+msgstr "Voorwrap"
+
+#: inc/controller-config.php:167
+msgid "Pre Line"
+msgstr "Voorregel"
+
+#: inc/controller-config.php:166
+msgid "Pre"
+msgstr "Voor"
+
+#: inc/controller-config.php:165
+msgid "Encountered"
+msgstr "Ondervonden"
+
+#: inc/controller-config.php:159
+msgid "White Space"
+msgstr "Witte ruimte"
+
+#: inc/controller-config.php:152
+msgid "Word Spacing"
+msgstr "Tussenruimte woorden"
+
+#: inc/controller-config.php:145
+msgid "Letter Spacing"
+msgstr "Letterspatiëring"
+
+#: inc/controller-config.php:138
+msgid "Text Indent"
+msgstr "Tekst inspringen"
+
+#: inc/controller-config.php:127
+msgid "Justify"
+msgstr "Uitvullen"
+
+#: inc/controller-config.php:126
+msgid "Center"
+msgstr "Midden"
+
+#: inc/controller-config.php:125 inc/controller-config.php:457
+#: inc/controller-config.php:469
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/controller-config.php:124 inc/controller-config.php:456
+#: inc/controller-config.php:468
+msgid "Left"
+msgstr "Links"
+
+#: inc/controller-config.php:119
+msgid "Text Align"
+msgstr "Tekst uitlijning"
+
+#: inc/controller-config.php:112
+msgid "Font Family"
+msgstr "Lettertype familie"
+
+#: inc/controller-config.php:107
+msgid "Lowercase"
+msgstr "Kleine letters"
+
+#: inc/controller-config.php:106
+msgid "Uppercase"
+msgstr "Hoofdletters"
+
+#: inc/controller-config.php:105
+msgid "Capitalize"
+msgstr "Kapitaliseren"
+
+#: inc/controller-config.php:99
+msgid "Text Transform"
+msgstr "Teksttransformatie"
+
+#: inc/controller-config.php:94
+msgid "Small Caps"
+msgstr "Small Caps"
+
+#: inc/controller-config.php:88
+msgid "Font Variant"
+msgstr "Lettertype variant"
+
+#: inc/controller-config.php:78
+msgid "Line Through"
+msgstr "Doorstrepen"
+
+#: inc/controller-config.php:77
+msgid "Overline"
+msgstr "Overlijnen"
+
+#: inc/controller-config.php:76
+msgid "Underline"
+msgstr "Onderstrepen"
+
+#: inc/controller-config.php:70
+msgid "Text Decoration"
+msgstr "Tekstdecoratie"
+
+#: inc/controller-config.php:61
+msgid "Italic"
+msgstr "Cursief"
+
+#: inc/controller-config.php:59 inc/controller-config.php:75
+#: inc/controller-config.php:104 inc/controller-config.php:428
+#: inc/controller-config.php:455 inc/controller-config.php:467
+msgid "None"
+msgstr "Geen"
+
+#: inc/controller-config.php:54
+msgid "Font Style"
+msgstr "Lettertype stijl"
+
+#: inc/controller-config.php:40
+msgid "Lighter"
+msgstr "Lichter"
+
+#: inc/controller-config.php:39
+msgid "Bolder"
+msgstr "Vetter"
+
+#: inc/controller-config.php:38
+msgid "Bold"
+msgstr "Vet"
+
+#: inc/controller-config.php:37 inc/controller-config.php:60
+#: inc/controller-config.php:93 inc/controller-config.php:164
+msgid "Normal"
+msgstr "Normaal"
+
+#: inc/controller-config.php:32
+msgid "Font Weight"
+msgstr "Lettertype dikte"
+
+#: inc/controller-config.php:24
+msgid "Line Height"
+msgstr "Lijnhoogte"
+
+#: inc/controller-config.php:16
+msgid "Font Size"
+msgstr "Lettertype grootte"
+
+#: inc/controller-config.php:9
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+#: inc/controller-config.php:5
+msgid "Text"
+msgstr "Tekst"

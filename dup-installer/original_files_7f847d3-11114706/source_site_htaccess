@@ -1,0 +1,84 @@
+# BEGIN iThemes Security - Deze regel niet wijzigen of verwijderen
+# iThemes Security Config Details: 2
+	# Systeembestanden beschermen - Beveiliging > Instellingen > Systeem tweaks > Systeembestanden
+	<files .htaccess>
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+	<files readme.html>
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+	<files readme.txt>
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+	<files wp-config.php>
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+
+	# Bladeren in mappen uitschakelen - Beveiliging > Instellingen > Systeem tweaks > Bladeren in mappen
+	Options -Indexes
+
+	<IfModule mod_rewrite.c>
+		RewriteEngine On
+
+		# Systeembestanden beschermen - Beveiliging > Instellingen > Systeem tweaks > Systeembestanden
+		RewriteRule ^wp-admin/install\.php$ - [F]
+		RewriteRule ^wp-admin/includes/ - [F]
+		RewriteRule !^wp-includes/ - [S=3]
+		RewriteRule ^wp-includes/[^/]+\.php$ - [F]
+		RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F]
+		RewriteRule ^wp-includes/theme-compat/ - [F]
+		RewriteCond %{REQUEST_FILENAME} -f
+		RewriteRule (^|.*/)\.(git|svn)/.* - [F]
+
+		# PHP in uploads uitschakelen - Beveiliging > Instellingen > Systeem tweaks > PHP in uploads
+		RewriteRule ^wp\-content/uploads/.*\.(?:php[1-7]?|pht|phtml?|phps)\.?$ - [NC,F]
+
+		# PHP in plugins uitschakelen - Beveiliging > Instellingen > Systeem tweaks > PHP in plugins
+		RewriteRule ^wp\-content/plugins/.*\.(?:php[1-7]?|pht|phtml?|phps)\.?$ - [NC,F]
+
+		# PHP in thema's uitschakelen - Beveiliging > Instellingen > Systeem tweaks > PHP in thema's
+		RewriteRule ^wp\-content/themes/.*\.(?:php[1-7]?|pht|phtml?|phps)\.?$ - [NC,F]
+	</IfModule>
+# END iThemes Security - Deze regel niet wijzigen of verwijderen
+
+# This file was updated by Duplicator on 2025-02-19 16:28:14.
+# See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WordPress
+# De richtlijnen (regels) tussen "BEGIN WordPress" en `END WordPress` worden
+# dynamisch gegenereerd en zouden alleen aangepast mogen worden via WordPress filters.
+# Elke wijziging aan deze richtlijnen tussen deze markeringen worden overschreven.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

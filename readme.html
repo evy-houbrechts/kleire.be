@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kleire.be – README</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    h1 {
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    ul, ol {
+      margin-left: 1.5em;
+    }
+    a {
+      color: #0073aa;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .screenshot {
+      max-width: 100%;
+      height: auto;
+      margin: 1em 0;
+      border: 1px solid #ccc;
+    }
+    blockquote {
+      border-left: 4px solid #eee;
+      padding-left: 1em;
+      color: #555;
+      margin: 1em 0;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1em 0;
+    }
+    table th,
+    table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    table th {
+      background-color: #f4f4f4;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Kleire.be</h1>
+  <p><strong>Een eenvoudige, gebruiksvriendelijke webshop voor kunstenaar Claire Bosmans (Klei’ re)</strong></p>
+
+  <img src="assets/screenshots/homepage.jpg" alt="Kleire.be Homepage Screenshot" class="screenshot" />
+
+  <hr />
+
+  <h2>Inhoud</h2>
+  <ol>
+    <li><a href="#projectbeschrijving">Projectbeschrijving</a></li>
+    <li><a href="#doelgroep-functionaliteiten">Doelgroep &amp; Belangrijkste Functionaliteiten</a></li>
+    <li><a href="#technische-stack">Technische Stack</a></li>
+    <li><a href="#mappenstructuur-bestanden">Mappenstructuur &amp; Belangrijke Bestanden</a></li>
+    <li>
+      <a href="#child-theme">Child-Theme “kleire-child-thema”</a>
+      <ul>
+        <li><a href="#belangrijkste-aanpassingen">Belangrijkste Aanpassingen</a></li>
+        <li><a href="#page-templates">Page Templates</a></li>
+        <li><a href="#style-layout">Style &amp; Layout</a></li>
+      </ul>
+    </li>
+    <li><a href="#geintegreerde-plugins">Geïntegreerde Plugins</a></li>
+    <li><a href="#responsive-ux">Responsive &amp; Eenvoudige UX</a></li>
+    <li><a href="#installatie-opzetten">Installatie &amp; Opzetten (Voor Interne Demonstratie)</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
+    <li><a href="#licentie-credits">Licentie &amp; Credits</a></li>
+  </ol>
+
+  <hr />
+
+  <h2 id="projectbeschrijving">Projectbeschrijving</h2>
+  <p>
+    Kleire.be is de persoonlijke e-commerce website voor keramiek-kunstenares <strong>Claire Bosmans</strong> (“Klei’ re”). 
+    Het hoofddoel is het tonen en rechtstreeks verkopen van handgemaakte keramische objecten (vaasjes, kopjes, sculpturen, enz.) 
+    aan consumenten. Doordat Claire zelf weinig technische ervaring heeft, is de site bewust zo simpel mogelijk opgezet:
+  </p>
+  <ul>
+    <li><strong>Volledige WooCommerce-integratie</strong> (producten, winkelwagen, afrekenen, bestellingen).</li>
+    <li><strong>Gebruiksvriendelijke pagina’s</strong> (mobielvriendelijk, grote knoppen, duidelijke instructies).</li>
+    <li><strong>Minimalistische backend</strong> (eenvoudige knoppen voor het toevoegen van nieuwe producten en beheren van bestellingen).</li>
+    <li><strong>Geen overbodige franje</strong>: alleen datgene wat Claire nodig heeft, met maximaal gebruiksgemak.</li>
+  </ul>
+
+  <blockquote>
+    <p><strong>Doelstelling als Portfolio</strong><br/>
+      Deze repository toont mijn werk als WordPress-ontwikkelaar / front-end-designer.<br/>
+      &ndash; Hoe ik een bestaande WooCommerce-site vereenvoudig voor een 70-jarige cliënt.<br/>
+      &ndash; Hoe ik een lichtgewicht child-theme bouw op basis van Astra.<br/>
+      &ndash; Hoe ik specifieke page-templates schrijf voor productbeheer en orderbeheer.<br/>
+      &ndash; Responsive design voor desktop én smartphone.
+    </p>
+  </blockquote>
+
+  <hr />
+
+  <h2 id="doelgroep-functionaliteiten">Doelgroep &amp; Belangrijkste Functionaliteiten</h2>
+  <h3>Doelgroep</h3>
+  <ul>
+    <li>Particuliere consumenten die handgemaakte keramiek (servies, vazen, sculpturen) willen kopen.</li>
+    <li>Familieleden of kennissen van de kunstenaar die snel een uniek cadeautje zoeken.</li>
+  </ul>
+
+  <h3>Belangrijkste Functionaliteiten</h3>
+  <ol>
+    <li>
+      <strong>Productbeheer (WooCommerce)</strong>
+      <ul>
+        <li>Eenvoudige productupload: afbeeldingen, titel, prijs, omschrijving, voorraad.</li>
+        <li>Automatische weergave op productpagina’s.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Orderbeheer (Winkelmanager)</strong>
+      <ul>
+        <li>“Bestellingen Overzicht”-pagina (template) voor winkelmanager om orderstatus bij te werken.</li>
+        <li>Orderstatus wijzigen (In behandeling, Voltooid, Geannuleerd) in één klik.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Formulieren &amp; Contact</strong>
+      <ul>
+        <li>Ninja Forms voor contact- en vraagformulieren.</li>
+        <li>Eenvoudige e-mailnotificaties en opvolgingsmails.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Beeldoptimalisatie &amp; Performance</strong>
+      <ul>
+        <li>WP-Smush / Smush-WebP om afbeeldingen automatisch te comprimeren en WebP-versies te genereren.</li>
+        <li>IMSANITY om uploads automatisch in te krimpen naar geschikte afmetingen.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Beveiliging &amp; Privacy</strong>
+      <ul>
+        <li>Better-WP-Security (iThemes Security) voor basisbescherming tegen brute-force en exploits.</li>
+        <li>Complianz-GDPR voor cookiebanner, privacy policy en EU-GDPR-compliance.</li>
+        <li>WP-Hide-Login voor het verbergen van de standaard <code>/wp-admin</code> loginpagina.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Backup &amp; Update-beheer</strong>
+      <ul>
+        <li>UpdraftPlus voor automatische back-ups naar externe locaties (Dropbox, Google Drive).</li>
+        <li>Duplicator voor migraties en “export → import” van site + database.</li>
+        <li>Woo-Update-Manager specifiek voor WooCommerce-pluginupdates.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Extra UX-tools</strong>
+      <ul>
+        <li>FileBird voor mappenstructuur in de mediabibliotheek.</li>
+        <li>MegaMenu voor eenvoudige menu’s in de header.</li>
+        <li>So-CSS voor kleine CSS-snippets via de customizer.</li>
+        <li>Loginizer om brute-force-pogingen op de inlogpagina te blokkeren.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <hr />
+
+  <h2 id="technische-stack">Technische Stack</h2>
+  <ul>
+    <li><strong>WordPress</strong> (versie 5.x of 6.x – exacte versie op productie)</li>
+    <li><strong>PHP 8.0</strong> (Nginx + PHP-FPM op de live-server)</li>
+    <li><strong>MySQL / MariaDB</strong> (DirectAdmin-hosting)</li>
+    <li><strong>Astra Theme</strong> (Parent)</li>
+    <li><strong>Eigen Child-Theme “kleire-child-thema”</strong> (Zie sectie Child-Theme)</li>
+    <li><strong>JavaScript &amp; CSS</strong>:
+      <ul>
+        <li>jQuery (standaard bij WooCommerce)</li>
+        <li>Vanilla JS voor simpele event-handlers in custom page-templates</li>
+        <li>CSS (mobile-first, alleen overrides in child-theme)</li>
+      </ul>
+    </li>
+  </ul>
+  <p>
+    <em>Opmerking:</em>  
+    Deze repo bevat niet de volledige <code>wp-config.php</code> (staat lokaal) en mediabestanden 
+    (<code>wp-content/uploads/</code>) – alleen core, plugins, thema’s en child-theme.
+  </p>
+
+  <hr />
+
+  <h2 id="mappenstructuur-bestanden">Mappenstructuur &amp; Belangrijke Bestanden</h2>
+  <pre>
+kleire.be/                    ← Root van deze GitHub-repository
+├─ wp-admin/                    ← WordPress-core admin-map (standaard)
+├─ wp-includes/                 ← WordPress-core includes (standaard)
+├─ wp-content/                  ← Alle content‐mappen (thema’s, plugins, uploads, …)
+│   ├─ languages/               ← Vertalingen (nl_NL, en_US)
+│   ├─ plugins/                 ← Alle actieve plugins (zie verderop)
+│   │   ├─ better-wp-security/
+│   │   ├─ complianz-gdpr/
+│   │   ├─ duplicator/
+│   │   ├─ enable-media-replace/
+│   │   ├─ filebird/
+│   │   ├─ if-menu/
+│   │   ├─ imsanity/
+│   │   ├─ loginizer/
+│   │   ├─ megamenu/
+│   │   ├─ ninja-forms/
+│   │   ├─ so-css/
+│   │   ├─ ultimate-addons-for-gutenberg/
+│   │   ├─ updraftplus/
+│   │   ├─ white-label-cms/
+│   │   ├─ woocommerce/
+│   │   ├─ woo-update-manager/
+│   │   ├─ wp-nested-pages/
+│   │   ├─ wps-hide-login/
+│   │   └─ wp-smushit/
+│   ├─ smush-webp/               ← Smush WebP add-on
+│   ├─ themes/                   ← Thema’s (Astra + kleire-child-thema)
+│   │   ├─ astra/                ← Astra Parent Theme
+│   │   │   ├─ 404.php
+│   │   │   ├─ archive.php
+│   │   │   ├─ assets/
+│   │   │   ├─ functions.php
+│   │   │   ├─ header.php
+│   │   │   ├─ sidebar.php
+│   │   │   ├─ single.php
+│   │   │   └─ style.css
+│   │   └─ kleire-child-thema/   ← Eigen Child-Theme
+│   │       ├─ style.css         ← Child-theme CSS-overrides &amp; metadata
+│   │       ├─ functions.php     ← Enqueue + WooCommerce-hooks
+│   │       ├─ klantenpaneel.php ← “Bestellingen Overzicht” template
+│   │       └─ producten.php     ← “Product Upload Form” template
+│   └─ upgrade-temp-backup/      ← Tijdelijke backup-map (genegeerd in .gitignore)
+├─ index.php                     ← WordPress core index
+├─ license.txt                   ← WordPress GPL-licentie-informatie
+└─ … (verschillende core-PHP-bestanden)
+  </pre>
+  <p>
+    <em>Let op:</em> Bestanden en mappen zoals <code>wp-content/uploads/</code>, 
+    <code>wp-content/cache/</code>, en <code>vendor/</code> zijn in <code>.gitignore</code> geplaatst en 
+    staan niet in deze repo. <code>wp-config.php</code> en <code>.env</code> worden lokaal aangemaakt.
+  </p>
+
+  <hr />
+
+  <h2 id="child-theme">Child-Theme “kleire-child-thema”</h2>
+
+  <h3 id="belangrijkste-aanpassingen">Belangrijkste Aanpassingen</h3>
+  <p>Dit child-theme is gebouwd op basis van het <strong>Astra-parent-theme</strong>. De aanpassingen zijn bewust minimaal, om de laadtijd laag te houden en eenvoud te bevorderen:</p>
+  <ul>
+    <li>
+      <strong>Enqueue Child-Theme Stylesheet</strong><br />
+      <code>
+        add_action( 'wp_enqueue_scripts', 'klei_re_enqueue_styles' );<br />
+        function klei_re_enqueue_styles() {<br />
+        &nbsp;&nbsp;wp_enqueue_style( 'astra-child-style', get_stylesheet_uri(), array( 'astra-theme-css' ), '1.0.0' );<br />
+        }
+      </code><br />
+      Hierdoor blijft alle styling van Astra beschikbaar, en kunnen we alleen extra CSS toevoegen in <code>style.css</code>.
+    </li>
+    <li>
+      <strong>Tagbeschrijving op Productpagina’s toevoegen</strong><br />
+      <code>
+        add_action('woocommerce_product_additional_information', 'toon_tag_tekst_bijkomende_info');<br />
+        function toon_tag_tekst_bijkomende_info() {<br />
+        &nbsp;&nbsp;$product_id = get_the_ID();<br />
+        &nbsp;&nbsp;$tags = get_the_terms($product_id, 'product_tag');<br /><br />
+        &nbsp;&nbsp;if ($tags && !is_wp_error($tags)) {<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;foreach ($tags as $tag) {<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tag_desc = term_description($tag);<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (!empty($tag_desc)) {<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo '&lt;strong&gt;Tag:&lt;/strong&gt; ' . esc_html($tag->name) . '&lt;br&gt;';<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo nl2br(strip_tags($tag_desc, '&lt;br&gt;'));<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;}<br />
+        &nbsp;&nbsp;}<br />
+        }
+      </code><br />
+      Dit voegt onder “Additional Information” op een productpagina de tags en hun beschrijving toe, waardoor klanten snel extra details vinden.
+    </li>
+  </ul>
+
+  <h3 id="page-templates">Page Templates</h3>
+  <h4>1. Bestellingen Overzicht (<code>klantenpaneel.php</code>)</h4>
+  <p><strong>Template Name:</strong></p>
+  <pre>
+/*
+  Template Name: Bestellingen Overzicht (Winkelmanager)
+*/
+  </pre>
+  <p><strong>Doel:</strong> Alleen toegankelijk voor ingelogde gebruikers met WooCommerce-rechten (Shop Manager / Administrator). Toont een overzichtstabel van orders met kolommen voor order-ID, klantnaam, totaalbedrag en huidige status. Elke rij bevat een dropdown-knop of actieknoppen om de orderstatus te wijzigen (‘In behandeling’, ‘Voltooid’, ‘Geannuleerd’).</p>
+  <p><strong>Gebruik:</strong></p>
+  <ol>
+    <li>Maak in de WordPress-backend een nieuwe pagina aan, bijv. “Bestellingen Overzicht”.</li>
+    <li>Kies bij “Page Attributes → Template” voor “Bestellingen Overzicht (Winkelmanager)”.</li>
+    <li>Publiceer de pagina. Wanneer je inlogt als winkelmanager of admin, navigeer je naar deze pagina om orders snel te beheren.</li>
+  </ol>
+
+  <h4>2. Product Upload Form (<code>producten.php</code>)</h4>
+  <p><strong>Template Name:</strong></p>
+  <pre>
+/*
+  Template Name: Product Upload Form (Winkelmanager)
+*/
+  </pre>
+  <p><strong>Doel:</strong> Eenvoudig frontend-formulier waarmee een winkelmanager (of Administrator) zonder de WooCommerce-backend in kan loggen en direct via de site een nieuw product kan toevoegen.</p>
+  <p><strong>Functionaliteit:</strong></p>
+  <ul>
+    <li>Controle op <code>is_user_logged_in()</code> &amp; <code>current_user_can('manage_woocommerce')</code>. Zo niet, redirect naar homepage.</li>
+    <li>Formuliervelden:
+      <ul>
+        <li>Producttitel (tekst)</li>
+        <li>SKU (tekst)</li>
+        <li>Prijs (nummer)</li>
+        <li>Omschrijving (textarea)</li>
+        <li>Selecteer hoofdcategorie + tags</li>
+        <li>Upload hoofdfoto + galerijafbeeldingen (meerdere bestanden)</li>
+      </ul>
+    </li>
+    <li>Na versturen: sanitizen van input, aanmaken van WooCommerce-product met <code>wp_insert_post()</code>, <code>update_post_meta()</code> voor prijs/SKU, en <code>wp_set_object_terms()</code> voor categorieën/tags.</li>
+  </ul>
+  <p><strong>Gebruik:</strong></p>
+  <ol>
+    <li>Maak in de backend een nieuwe pagina aan, bijv. “Product Upload”.</li>
+    <li>Kies bij “Page Attributes → Template” voor “Product Upload Form (Winkelmanager)”.</li>
+    <li>Publiceer. Log in als winkelmanager / admin, ga naar deze pagina om via formulier nieuwe producten toe te voegen.</li>
+  </ol>
+
+  <h3 id="style-layout">Style &amp; Layout</h3>
+  <p>Het child-theme erft alle styling van Astra, met slechts enkele specifieke CSS-overrides in <code>kleire-child-thema/style.css</code>:</p>
+  <pre>
+/*
+ Theme Name:   Klei’ re Child
+ Theme URI:    https://kleire.be/
+ Description:  Child theme voor Astra
+ Author:       Klei’ re (Claire Bosmans)
+ Author URI:   https://kleire.be/
+ Template:     astra
+ Version:      1.0.0
+*/
+
+/* Basis overrides: */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.woocommerce .price {
+  font-size: 1.25rem;
+  color: #2c3e50;
+}
+
+.klantenpaneel-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.klantenpaneel-table th,
+.klantenpaneel-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.klantenpaneel-table th {
+  background-color: #f4f4f4;
+}
+
+/* Grote knoppen voor mobiel: */
+.btn {
+  display: inline-block;
+  background: #2c3e50;
+  color: #fff !important;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 5px;
+  font-size: 1rem;
+}
+.btn:hover {
+  background: #1a242f;
+}
+  </pre>
+
+  <hr />
+
+  <h2 id="geintegreerde-plugins">Geïntegreerde Plugins</h2>
+  <p>Alle onderstaande plugins bevinden zich in <code>wp-content/plugins/</code>. De belangrijkste functies kort toegelicht:</p>
+  <table>
+    <tr>
+      <th>Plugin</th>
+      <th>Functie</th>
+    </tr>
+    <tr>
+      <td><strong>WooCommerce</strong></td>
+      <td>E-commerce engine: productcatalogus, winkelwagen, checkout, orderbeheer.</td>
+    </tr>
+    <tr>
+      <td><strong>Ninja Forms</strong></td>
+      <td>Drag-and-drop form builder voor contactformulieren en aanvragen.</td>
+    </tr>
+    <tr>
+      <td><strong>Better-WP-Security</strong></td>
+      <td>Basisbeveiliging (admin-URL wijzigen, brute-force bescherming, 2FA-opties).</td>
+    </tr>
+    <tr>
+      <td><strong>Complianz-GDPR</strong></td>
+      <td>Cookiebanner, privacy policy generator, EU-GDPR-compliance.</td>
+    </tr>
+    <tr>
+      <td><strong>UpdraftPlus</strong></td>
+      <td>Automatische back-ups naar Dropbox/Google Drive.</td>
+    </tr>
+    <tr>
+      <td><strong>Duplicator</strong></td>
+      <td>Snelle migraties &amp; package-export van site + database.</td>
+    </tr>
+    <tr>
+      <td><strong>WP-Smush (smush-webp)</strong></td>
+      <td>Compressie en lazy-load van afbeeldingen, WebP-conversie.</td>
+    </tr>
+    <tr>
+      <td><strong>IMSANITY</strong></td>
+      <td>Beperkt maximale uploadgrootte van afbeeldingen (bv. max breedte 1200px).</td>
+    </tr>
+    <tr>
+      <td><strong>Loginizer</strong></td>
+      <td>Extra brute-force bescherming, lockout policy voor loginpogingen.</td>
+    </tr>
+    <tr>
+      <td><strong>MegaMenu</strong></td>
+      <td>Drag-and-drop mega-menu functionaliteit in de header.</td>
+    </tr>
+    <tr>
+      <td><strong>FileBird</strong></td>
+      <td>Mappenstructuur in de mediabibliotheek – eenvoudig bestanden organiseren.</td>
+    </tr>
+    <tr>
+      <td><strong>White Label CMS</strong></td>
+      <td>Verberg overbodige dashboarditems voor eindgebruikers.</td>
+    </tr>
+    <tr>
+      <td><strong>So-CSS</strong></td>
+      <td>Extra CSS-snippets via de WP Customizer.</td>
+    </tr>
+    <tr>
+      <td><strong>Woo-Update-Manager</strong></td>
+      <td>Alerts en beheer voor WooCommerce-updates.</td>
+    </tr>
+    <tr>
+      <td><strong>WP Nested Pages</strong></td>
+      <td>Hiërarchische paginaboom in de admin (vereenvoudigt paginabeheer).</td>
+    </tr>
+    <tr>
+      <td><strong>WPS Hide Login</strong></td>
+      <td>Verbergt <code>/wp-admin</code> login-URL (bijv. naar <code>/secretlogin123</code>).</td>
+    </tr>
+    <tr>
+      <td><strong>Enable Media Replace</strong></td>
+      <td>Vervangen van mediabestanden zonder nieuwe items te maken.</td>
+    </tr>
+  </table>
+  <p><em>Opmerking:</em> Bij premium-plugins dienen licenties lokaal ingevoerd te worden. Sommige plugins genereren tijdelijke <code>cache/</code> of <code>upgrade-temp-backup/</code> mappen, genegeerd via <code>.gitignore</code>.</p>
+
+  <hr />
+
+  <h2 id="responsive-ux">Responsive &amp; Eenvoudige UX</h2>
+  <h3>Mobile-First Design</h3>
+  <ul>
+    <li>Grote knoppen, leesbare lettergroottes en voldoende contrast.</li>
+    <li>Eenvoudige navigatie met hamburger-menu en 1-koloms layout.</li>
+    <li>Product- en bestelpagina’s passen automatisch aan smartphonebreedte.</li>
+  </ul>
+
+  <h3>Desktop UX</h3>
+  <ul>
+    <li>Brede productgalerijen, duidelijke call-to-action (“In winkelwagen”, “Checkout”).</li>
+    <li>Checkout-pagina beperkt tot strikt noodzakelijke velden: naam, adres, e-mail, betaalmethode.</li>
+  </ul>
+
+  <h3>Admin UX (Backend Vereenvoudigd)</h3>
+  <ul>
+    <li>Alleen menu-items die Claire nodig heeft:
+      <ul>
+        <li>Producten &rarr; Nieuwe product (of via frontend form “Product Upload”)</li>
+        <li>WooCommerce &rarr; Bestellingen (alternatief via “Bestellingen Overzicht” frontend-pagina)</li>
+        <li>Media &rarr; Bibliotheek (met FileBird mappenstructuur)</li>
+        <li>Ninja Forms &rarr; Formulieren</li>
+        <li>Instellingen &rarr; Algemeen, Permalinks, Betalingen</li>
+      </ul>
+    </li>
+    <li>Overbodige menu-items (bv. “Appearance &rarr; Widgets/Themes”) zijn verborgen via White Label CMS.</li>
+  </ul>
+
+  <hr />
+
+  <h2 id="installatie-opzetten">Installatie &amp; Opzetten (Voor Interne Demonstratie)</h2>
+  <p><em>Let op:</em> Deze handleiding is bedoeld voor collega’s of toekomstige werkgevers om inzicht te krijgen in hoe de site lokaal op te zetten. Dit is <strong>niet</strong> de officiële klant‐deploy (mediabestanden, licenties en live‐wp-config ontbreken).</p>
+
+  <ol>
+    <li>
+      <strong>Repo Klonen</strong><br />
+      <code>https://github.com/evy-houbrechts/kleire.be.git<br /></code>
+    </li>
+    <li>
+      <strong>Nieuwe Database Aanmaken</strong><br />
+      Gebruik phpMyAdmin, MySQL CLI of een andere client. Maak een lege database aan (bijv. <code>kleire_local</code>) en noteer gebruikersnaam/wachtwoord.
+    </li>
+    <li>
+      <strong>Kopieer &amp; Configureer <code>wp-config.php</code></strong><br />
+      <pre>cp wp-config-sample.php wp-config.php</pre>
+      Open <code>wp-config.php</code> en vul in:<br />
+      <code>
+define('DB_NAME',     'kleire_local');<br />
+define('DB_USER',     'db_gebruiker');<br />
+define('DB_PASSWORD', 'db_wachtwoord');<br />
+define('DB_HOST',     'localhost');<br />
+define('WP_DEBUG',    true);  &lt;!-- Voor ontwikkelmodus --&gt;<br />
+      </code>
+    </li>
+    <li>
+      <strong>Plugins &amp; Thema’s Controleren</strong><br />
+      <ul>
+        <li>Alle plugin-folders staan al in <code>wp-content/plugins/</code>. Activeer in WP-backend: WooCommerce, Ninja Forms, Better-WP-Security, Complianz-GDPR, etc.</li>
+        <li>Ga naar <strong>Weergave &rarr; Thema’s</strong>, activeer eerst <em>Astra</em>, daarna <em>Klei’ re Child</em>.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Composer &amp; npm (optioneel)</strong><br />
+      Deze repo bevat geen <code>composer.json</code> voor WordPress-core. Mocht je in toekomst dependencies toevoegen, gebruik dan <code>composer install</code>.<br />
+      Voor het child-theme zijn geen npm-scripts vereist. Alle CSS-overrides zitten in <code>style.css</code>.
+    </li>
+    <li>
+      <strong>Maak <code>wp-content/uploads</code> Map aan</strong><br />
+      <ul>
+        <li>Maak in <code>wp-content/</code> de map <code>uploads/</code> aan en geef schrijfrechten.</li>
+        <li>Upload demo-media via WP-backend (Media &rarr; Nieuw bestand).</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Start de Lokale Webserver</strong><br />
+      <ul>
+        <li>Gebruik Local by Flywheel, XAMPP, MAMP of Laragon. Zorg dat de DocumentRoot wijst naar de root van deze repo (<code>/path/to/kleire.be</code>).</li>
+        <li>Open in je browser: <code>http://localhost/kleire.be/</code>. De WordPress-installatie-wizard verschijnt.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Permalinks &amp; WooCommerce Instellingen</strong><br />
+      Nadat installatie voltooid is, log in op <code>http://localhost/kleire.be/wp-admin</code>.<br />
+      <ul>
+        <li>Ga naar <strong>Instellingen &rarr; Permalinks</strong>: kies “Berichtnaam” &eacute;n klik “Wijzigingen opslaan”.</li>
+        <li>Ga naar <strong>WooCommerce &rarr; Instellingen</strong>: configureer land (België), valuta (EUR), betaalmethoden (bijv. PayPal sandbox) en verzendopties (vaste prijs, gratis verzending, etc.).</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Pagina’s Aanmaken</strong><br />
+      <ul>
+        <li><strong>Bestellingen Overzicht</strong> – Nieuwe pagina, kies template “Bestellingen Overzicht (Winkelmanager)”.</li>
+        <li><strong>Product Upload</strong> – Nieuwe pagina, kies template “Product Upload Form (Winkelmanager)”.</li>
+      </ul>
+      Publiceer beide pagina’s.
+    </li>
+    <li>
+      <strong>Testen</strong><br />
+      <ul>
+        <li><strong>Front-end:</strong> Controleer homepage, productpagina’s (tags + beschrijving), winkelwagen en checkout.</li>
+        <li><strong>Winkelmanager:</strong> Log in als admin, ga naar “Bestellingen Overzicht” om orderstatus te wijzigen. Ga naar “Product Upload” om via formulier nieuwe producten toe te voegen.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <hr />
+
+  <h2 id="screenshots">Screenshots</h2>
+
+  <h3>1. Homepage (Desktop)</h3>
+  <img src="assets/screenshots/homepage-desktop.jpg" alt="Homepage Desktop" class="screenshot" />
+  <p><em>Beschrijving:</em> Bannerslider met recente keramiekcollectie en uitgelichte producten.</p>
+
+  <h3>2. Productpagina (Mobile)</h3>
+  <img src="assets/screenshots/product-mobile.jpg" alt="Productpagina Mobile" class="screenshot" />
+  <p><em>Beschrijving:</em> Enkele productfoto, prijs, “In winkelwagen”-knop, en onderaan de tags + tagomschrijving.</p>
+
+  <h3>3. Product Upload Form (Desktop)</h3>
+  <img src="assets/screenshots/product-upload.jpg" alt="Product Upload" class="screenshot" />
+  <p><em>Beschrijving:</em> Eenvoudige velden – producttitel, prijs, SKU, omschrijving, hoofd- en galerijafbeeldingen.</p>
+
+  <h3>4. Bestellingen Overzicht (Admin-voorbeeld)</h3>
+  <img src="assets/screenshots/bestellingen-overzicht.jpg" alt="Bestellingen Overzicht" class="screenshot" />
+  <p><em>Beschrijving:</em> Tabel met order-ID’s, klantnamen, totaalbedrag en dropdown om status aan te passen.</p>
+  <hr />
+
+  <h2 id="licentie-credits">Licentie &amp; Credits</h2>
+
+  <h3>Licentie</h3>
+  <p>
+    Deze site en alle custom-thema- en pluginbestanden vallen onder de 
+    <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank" rel="noopener">GPLv2</a> (of latere versies). 
+    Alle gebruikte gratis WordPress-plugins zijn eveneens GPL-gelicenseerd.
+  </p>
+
+  <h3>Credits</h3>
+  <ul>
+    <li><strong>Ontwikkelaar / Designer:</strong> [Evy Houbrechts]</li>
+    <li><strong>Kunstenares &amp; Eigenaar:</strong> Claire Bosmans (“Klei’ re”)</li>
+    <li><strong>Parent Theme:</strong> Astra Theme – <a href="https://wpastra.com/" target="_blank" rel="noopener">Brainstorm Force</a></li>
+  </ul>
+  <h4>Plugin Auteurs</h4>
+  <ul>
+    <li><strong>WooCommerce</strong> – <a href="https://woocommerce.com/" target="_blank" rel="noopener">Automattic</a></li>
+    <li><strong>Ninja Forms</strong> – <a href="https://ninjaforms.com/" target="_blank" rel="noopener">WP Ninjas</a></li>
+    <li><strong>Better-WP-Security (iThemes Security)</strong> – <a href="https://ithemes.com/" target="_blank" rel="noopener">iThemes</a></li>
+    <li><strong>Complianz-GDPR</strong> – <a href="https://complianz.io/" target="_blank" rel="noopener">Complianz.io</a></li>
+    <li><strong>UpdraftPlus</strong> – <a href="https://updraftplus.com/" target="_blank" rel="noopener">UpdraftPlus.Com</a></li>
+    <li><strong>Duplicator</strong> – <a href="https://wordpress.org/plugins/duplicator/" target="_blank" rel="noopener">Duplicator WP Plugin</a></li>
+    <li><strong>WP-Smush (Smush-WebP)</strong> – <a href="https://wordpress.org/plugins/wp-smushit/" target="_blank" rel="noopener">WPMU DEV</a></li>
+    <li><strong>IMSANITY</strong> – <a href="https://wordpress.org/plugins/imsanity/" target="_blank" rel="noopener">Josh Lobe</a></li>
+    <li><strong>Loginizer</strong> – <a href="https://loginizer.com/" target="_blank" rel="noopener">MainWP</a></li>
+    <li><strong>MegaMenu</strong> – <a href="https://wordpress.org/plugins/megamenu/" target="_blank" rel="noopener">Tareq Hasan</a></li>
+    <li><strong>FileBird</strong> – <a href="https://www.goninja.com/plugins/filebird" target="_blank" rel="noopener">Ninja Team</a></li>
+    <li><strong>White Label CMS</strong> – <a href="https://wordpress.org/plugins/white-label-cms/" target="_blank" rel="noopener">David Clark</a></li>
+    <li><strong>So-CSS</strong> – <a href="https://wordpress.org/plugins/so-css/" target="_blank" rel="noopener">Maxime Bats</a></li>
+    <li><strong>Woo-Update-Manager</strong> – <a href="https://wordpress.org/plugins/woo-update-manager/" target="_blank" rel="noopener">WPKernel</a></li>
+    <li><strong>WP Nested Pages</strong> – <a href="https://wordpress.org/plugins/wp-nested-pages/" target="_blank" rel="noopener">SlickRemix</a></li>
+    <li><strong>WPS Hide Login</strong> – <a href="https://wordpress.org/plugins/wps-hide-login/" target="_blank" rel="noopener">WPServeur</a></li>
+    <li><strong>Enable Media Replace</strong> – <a href="https://wordpress.org/plugins/enable-media-replace/" target="_blank" rel="noopener">ShortPixel Team</a></li>
+  </ul>
+
+  <p>Voor vragen of een live-demo, stuur een e-mail naar <a href="mailto:evyhoubrechts@live.be">evyhoubrechts@live.be</a> of bezoek <a href="https://kleire.be" target="_blank" rel="noopener">https://kleire.be</a>.</p>
+
+</body>
+</html>
